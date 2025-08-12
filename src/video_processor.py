@@ -94,7 +94,7 @@ class VideoProcessor:
             if fps == 0:
                 fps = 25
                 self.logger.warning("Could not determine FPS, defaulting to 25.")
-                
+
             frame_interval = int(fps * self.config["frame_interval"])
             frame_count = 0
             saved_frame_count = 0
@@ -108,7 +108,7 @@ class VideoProcessor:
                     frame_filename = output_dir / f"frame{saved_frame_count:04d}.png"
                     cv2.imwrite(str(frame_filename), frame)
                     saved_frame_count += 1
-                
+
                 frame_count += 1
 
             cap.release()
@@ -123,53 +123,31 @@ class VideoProcessor:
         Extracts captions using a simplified and robust method.
         """
         caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
-        
+
         try:
             self.logger.info(f"Attempting to extract captions for video: {self.video_id}")
-            transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
-            transcript = transcript_list.find_transcript(['en', 'en-US', 'en-GB'])
-            self.logger.info("Found a manual English transcript.")
+            # The library automatically handles finding the best available transcript.
+            # We ask for English first, but it will fall back to other available languages.
+            transcript = YouTubeTranscriptApi.get_transcript(self.video_id, languages=['en', 'en-US', 'en-GB'])
 
-        except NoTranscriptFound:
-            try:
-                self.logger.warning("No manual English transcript found, trying auto-generated English.")
-                transcript = transcript_list.find_generated_transcript(['en', 'en-US', 'en-GB'])
-                self.logger.info("Found an auto-generated English transcript.")
-            except NoTranscriptFound:
-                self.logger.warning("No English transcript available. Trying any other language.")
-                try:
-                    transcript = next(iter(transcript_list))
-                    self.logger.info(f"Found a transcript in another language: {transcript.language_code}")
-                except StopIteration:
-                     self.logger.error(f"No transcripts whatsoever found for video {self.video_id}")
-                     caption_file.write_text("", encoding='utf-8')
-                     return caption_file
-
-        except TranscriptsDisabled:
-            self.logger.error(f"Transcripts are disabled for video {self.video_id}")
-            caption_file.write_text("", encoding='utf-8')
-            return caption_file
-
-        except Exception as e:
-            self.logger.error(f"An unexpected error occurred during caption extraction: {str(e)}")
-            caption_file.write_text("", encoding='utf-8')
-            return caption_file
-
-        try:
-            srt_data = transcript.fetch()
             caption_text = []
-            for entry in srt_data:
+            for entry in transcript:
                 start = entry["start"]
                 duration = entry.get("duration", 0)
                 end = start + duration
                 text = entry["text"].strip().replace('\n', ' ')
                 caption_text.append(f"<s> {start:.2f} | {end:.2f} | {text} </s>")
-            
+
             caption_file.write_text("\n".join(caption_text), encoding='utf-8')
             self.logger.info(f"Captions saved with {len(caption_text)} entries to {caption_file}")
+
+        except (NoTranscriptFound, TranscriptsDisabled) as e:
+            self.logger.warning(f"Could not find transcripts for video {self.video_id}: {e}")
+            caption_file.write_text("", encoding='utf-8') # Create empty file
+
         except Exception as e:
-            self.logger.error(f"Failed to process the fetched transcript: {str(e)}")
-            caption_file.write_text("", encoding='utf-8')
+            self.logger.error(f"An unexpected error occurred during caption extraction: {str(e)}")
+            caption_file.write_text("", encoding='utf-8') # Create empty file
 
         return caption_file
 
