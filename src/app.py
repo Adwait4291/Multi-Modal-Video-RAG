@@ -7,7 +7,7 @@ import streamlit as st
 import yaml
 from inference import InferenceProcessor
 from retriever import VideoRetriever
-from utils.helper import cleanup_data_directories
+from utils.helpers import cleanup_data_directories
 from utils.logger import setup_logger
 from video_indexer import VideoIndexer
 from video_processor import VideoProcessor
@@ -18,14 +18,71 @@ logger = setup_logger()
 # Custom CSS styling
 STYLE = """
 <style>
-    .main {background-color: white;}
-    h1 {color: darkslategray; border-bottom: 2px solid darkslategray;}
-    .stButton>button {background-color: #2196F3; color: white; border-radius: 5px;}
-    .stTextInput>div>div>input {border: 1px solid darkslategray; background-color: white;}
-    .stProgress>div>div>div {background-color: #4CAF50;}
-    .sidebar .sidebar-content {background-color: white;}
-    .log-box {padding: 10px; margin: 10px 0; border-radius: 5px; background-color: white; border: 1px solid #e0e0e0;}
-    .api-key-popup {background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+    /* Main app background */
+    .main {
+        background-color: #F0F2F6; /* Light grey background */
+    }
+
+    /* Title styling */
+    h1 {
+        color: #1E3A8A; /* Deep blue for titles */
+        border-bottom: 3px solid #1E3A8A;
+        padding-bottom: 10px;
+    }
+
+    /* Header styling */
+    h2, h3 {
+        color: #374151; /* Dark grey for headers */
+    }
+
+    /* Text input box: Fixed invisible text issue */
+    .stTextInput>div>div>input {
+        border: 2px solid #D1D5DB; /* Grey border */
+        background-color: #FFFFFF; /* White background */
+        color: #111827; /* Dark text color for visibility */
+        border-radius: 8px;
+    }
+
+    /* Button styling */
+    .stButton>button {
+        background-color: #2563EB; /* Vibrant blue */
+        color: white;
+        border-radius: 8px;
+        border: none;
+        padding: 10px 20px;
+        font-weight: bold;
+    }
+    .stButton>button:hover {
+        background-color: #1D4ED8; /* Darker blue on hover */
+    }
+
+    /* Progress bar styling */
+    .stProgress>div>div>div {
+        background-color: #2563EB; /* Vibrant blue */
+    }
+
+    /* Sidebar styling */
+    .sidebar .sidebar-content {
+        background-color: #FFFFFF;
+    }
+
+    /* Log box styling */
+    .log-box {
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+        border-left: 5px solid #2563EB; /* Blue accent line */
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    
+    /* API Key Popup */
+    .api-key-popup {
+        background-color: white; 
+        padding: 30px; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
 </style>
 """
 
@@ -33,15 +90,8 @@ STYLE = """
 def load_config():
     """
     Load and parse the application configuration from the YAML file.
-
-    Returns:
-        dict: Configuration dictionary containing all settings from config.yaml
-
-    Raises:
-        FileNotFoundError: If config.yaml is not found in the config directory
-        yaml.YAMLError: If the YAML file is malformed or cannot be parsed
     """
-    config_path = "config/config.yaml"
+    config_path = "video_rag_app/config/config.yaml"
     logger.info(f"Loading configuration from {config_path}")
 
     try:
@@ -58,30 +108,19 @@ def load_config():
 
 def init_session_state():
     """
-    Initialize the Streamlit session state with required keys and default values.
-    This ensures all necessary variables are available throughout the app's lifecycle.
-    
-    The following keys are initialized if not already present:
-    - video_url: Stores the URL of the uploaded/processed video
-    - index: Stores the vector index created from video frames and captions
-    - retriever: Stores the VideoRetriever instance for querying the index
-    - video_id: Stores unique identifier for the processed video
-    - inference_processor: Stores the Gemini model interface
-    - gemini_key: Stores the user's Gemini API key
+    Initialize the Streamlit session state with required keys.
     """
     logger.debug("Initializing session state variables")
     
-    # Define required session state keys and their default values
     required_keys = {
-        "video_url": None,  # URL of the video being processed
-        "index": None,      # Vector index for search
-        "retriever": None,  # Video retrieval interface
-        "video_id": None,   # Unique video identifier
-        "inference_processor": None,  # Gemini model interface
-        "gemini_key": None, # API key for Gemini
+        "video_url": None,
+        "index": None,
+        "retriever": None,
+        "video_id": None,
+        "inference_processor": None,
+        "gemini_key": None,
     }
 
-    # Initialize any missing keys in session state
     for key, default_value in required_keys.items():
         if key not in st.session_state:
             logger.debug(f"Initializing session state key: {key}")
@@ -92,12 +131,10 @@ def main():
 
     st_time = time.time()
 
-    logger.info("Starting Video RAG System application + Builtin Voice Mode Activated")
+    logger.info("Starting Video RAG System application")
     st.set_page_config(page_title="Video RAG System", layout="wide", page_icon="🎥")
     st.markdown(STYLE, unsafe_allow_html=True)
 
-    # Initialize session state
-    logger.debug("Initializing session state")
     init_session_state()
 
     # API Key Popup
@@ -109,46 +146,37 @@ def main():
             api_key = st.text_input(
                 "Please enter your Gemini API key to continue:", type="password"
             )
-            cols = st.columns([1, 3, 1])
-            with cols[1]:
-                if st.button("Submit Key"):
-                    if api_key:
-                        logger.info("API key submitted successfully")
-                        st.session_state.gemini_key = api_key
-                        st.rerun()
-                    else:
-                        logger.warning("Empty API key submitted")
-                        st.error("Please enter a valid API key")
+            if st.button("Submit Key"):
+                if api_key:
+                    logger.info("API key submitted successfully")
+                    st.session_state.gemini_key = api_key
+                    st.rerun()
+                else:
+                    logger.warning("Empty API key submitted")
+                    st.error("Please enter a valid API key")
             st.markdown("</div>", unsafe_allow_html=True)
-            st.stop()  # Stop execution until key is entered
+            st.stop()
 
-    # Load configuration
-    logger.debug("Loading configuration from YAML")
+    # Load configuration and initialize processor
     config = load_config()
-
-    # Initialize InferenceProcessor
     if st.session_state.inference_processor is None:
         try:
             logger.info("Initializing InferenceProcessor")
-            st.session_state.inference_processor = InferenceProcessor(
-                st.session_state.gemini_key
-            )
+            st.session_state.inference_processor = InferenceProcessor(st.session_state.gemini_key)
         except Exception as e:
             logger.error(f"Failed to initialize InferenceProcessor: {str(e)}")
             st.error(f"❌ Failed to initialize API: {str(e)}")
             del st.session_state.gemini_key
             st.rerun()
 
-    # Cleanup Section
+    # Sidebar
     st.sidebar.header("Settings ⚙️")
     if st.sidebar.button("🧹 Cleanup All Data"):
         try:
             logger.info("Starting cleanup of data directories")
             with st.spinner("Cleaning up previous data..."):
                 cleanup_data_directories()
-            # Reset only processing-related states
-            reset_keys = ["video_url", "index", "retriever", "video_id"]
-            for key in reset_keys:
+            for key in ["video_url", "index", "retriever", "video_id"]:
                 st.session_state[key] = None
             logger.info("Cleanup completed successfully")
             st.success("All previous data cleaned successfully!")
@@ -160,153 +188,101 @@ def main():
     st.title("🎥 Video RAG System")
 
     # Video Processing Section
-    with st.container():
-        st.header("Step 1: Process YouTube Video 🎬")
-        video_url = st.text_input("Enter YouTube URL:")
-        process_button = st.button("🚀 Process Video")
-
-    if process_button and video_url:
+    st.header("Step 1: Process YouTube Video 🎬")
+    video_url = st.text_input("Enter YouTube URL:")
+    
+    if st.button("🚀 Process Video") and video_url:
         logger.info(f"Starting video processing for URL: {video_url}")
         try:
             status_container = st.container()
-            progress_bar = st.progress(0)
+            progress_bar = status_container.progress(0)
+            log_box = status_container.empty()
 
-            with status_container:
-                st.markdown("### Processing Steps 📋")
-                log_box = st.empty()
-
-            def update_log(message):
+            def update_log(message, progress):
                 logger.debug(f"Processing status: {message}")
-                log_box.markdown(
-                    f'<div class="log-box">📌 {message}</div>', unsafe_allow_html=True
-                )
+                log_box.markdown(f'<div class="log-box">📌 {message}</div>', unsafe_allow_html=True)
+                progress_bar.progress(progress)
 
             with st.spinner("Processing video..."):
-                update_log("Initializing video processor...")
+                update_log("Initializing video processor...", 5)
                 video_processor = VideoProcessor(video_url, config)
-                progress_bar.progress(5)
 
-                # Add progress callback
                 def handle_progress(status):
-                    update_log(status)
+                    update_log(status, 15)
 
-                update_log("Starting video download...")
-                try:
-                    metadata, video_path = video_processor.download_video(
-                        progress_callback=handle_progress
-                    )
-                except Exception as e:
-                    logger.error(f"Video download failed: {str(e)}", exc_info=True)
-                    st.error(f"❌ Download failed: {str(e)}")
-                    return
-
-                progress_bar.progress(25)
-
-                # Convert duration to minutes:seconds format
+                update_log("Fetching video info...", 10)
+                metadata, stream_url = video_processor.get_video_info(progress_callback=handle_progress)
+                
                 def format_duration(seconds):
                     return f"{seconds//60}:{seconds%60:02d}"
-
                 video_duration = format_duration(metadata.duration)
-                update_log(
-                    f"Download complete: {video_path.name} - Duration: {video_duration}"
-                )
+                update_log(f"Video info fetched - Duration: {video_duration}", 25)
 
-                update_log("Extracting frames from video...")
-                frames_dir = video_processor.extract_frames(video_path)
-                progress_bar.progress(50)
-                update_log(f"Extracted {len(list(frames_dir.glob('*.jpg')))} frames")
+                update_log("Extracting frames from video stream...", 30)
+                frames_dir = video_processor.extract_frames(stream_url)
+                update_log(f"Extracted {len(list(frames_dir.glob('*.png')))} frames", 50)
 
-                update_log("Extracting video captions...")
+                update_log("Extracting video captions...", 60)
                 captions_path = video_processor.extract_captions()
-                progress_bar.progress(70)
-                update_log(f"Captions saved to: {captions_path}")
+                update_log(f"Captions saved to: {captions_path}", 70)
 
-                update_log("Creating multimodal index...")
+                update_log("Creating multimodal index...", 80)
                 indexer = VideoIndexer(config)
-                index = indexer.create_multimodal_index(
-                    frames_dir, captions_path, video_processor.video_id
-                )
-                progress_bar.progress(90)
-                update_log("Index creation complete")
+                index = indexer.create_multimodal_index(frames_dir, captions_path, video_processor.video_id)
+                update_log("Index creation complete", 90)
 
                 st.session_state.index = index
                 st.session_state.video_url = video_url
                 st.session_state.video_id = video_processor.video_id
                 st.session_state.retriever = VideoRetriever(index)
 
-                progress_bar.progress(100)
+                update_log("Video processed successfully!", 100)
                 logger.info("Video processing completed successfully")
-                st.success("✅ Video processed successfully!")
+                st.success("✅ Video processed and ready to be queried!")
 
         except Exception as e:
             error_msg = f"❌ Error processing video: {str(e)}"
             logger.error(f"Error processing video: {str(e)}", exc_info=True)
             st.error(error_msg)
-            return
 
     # Query Section
-    if st.session_state.index is not None:
+    if st.session_state.index:
         st.header("Step 2: Query Video Content 🔍")
         if st.session_state.video_url:
             st.video(st.session_state.video_url)
 
-        query = st.text_input("Enter your query:")
+        query = st.text_input("Enter your query about the video:")
         if st.button("📤 Submit Query"):
-            logger.info(f"Processing query: {query}")
-            try:
-                processing_container = st.container()
-                with processing_container:
-                    st.markdown("### Query Processing Steps 📋")
-                    query_log_box = st.empty()
-                    query_progress = st.progress(0)
+            if not query:
+                st.warning("Please enter a query.")
+            else:
+                logger.info(f"Processing query: {query}")
+                try:
+                    with st.spinner("Analyzing your query..."):
+                        retrieved_images, retrieved_texts = st.session_state.retriever.retrieve(query)
+                        st.info(f"Found {len(retrieved_images)} relevant frames and {len(retrieved_texts)} text segments.")
+                        
+                        response = st.session_state.inference_processor.process_query(
+                            retrieved_images, retrieved_texts, query
+                        )
 
-                def update_query_log(message):
-                    logger.debug(f"Query processing status: {message}")
-                    query_log_box.markdown(
-                        f'<div class="log-box">📌 {message}</div>',
-                        unsafe_allow_html=True,
-                    )
+                    st.subheader("💡 Answer")
+                    st.markdown(response['answer'])
 
-                with st.spinner("Analyzing query..."):
-                    update_query_log("Starting query processing...")
-                    query_progress.progress(20)
+                    if retrieved_images:
+                        st.subheader("🖼️ Retrieved Frames")
+                        num_cols = min(config.get("max_display_frames", 3), len(retrieved_images))
+                        cols = st.columns(num_cols)
+                        for idx, image_path in enumerate(retrieved_images):
+                            with cols[idx % num_cols]:
+                                st.image(str(image_path), use_container_width=True, caption=f"Frame {idx + 1}")
 
-                    update_query_log("Searching for relevant content...")
-                    retrieved_images, retrieved_texts = (
-                        st.session_state.retriever.retrieve(query)
-                    )
-                    query_progress.progress(40)
-                    update_query_log(
-                        f"Found {len(retrieved_images)} relevant frames and {len(retrieved_texts)} text segments"
-                    )
-
-                    update_query_log("Generating response with Gemini...")
-                    response = st.session_state.inference_processor.process_query(
-                        retrieved_images, retrieved_texts, query
-                    )
-                    query_progress.progress(80)
-
-                    st.subheader("Answer 💡")
-                    st.markdown(f"**{response['answer']}**")
-
-                    st.subheader("Retrieved Frames 🖼️")
-                    num_cols = min(3, len(retrieved_images))
-                    cols = st.columns(num_cols)
-                    for idx, image_path in enumerate(retrieved_images):
-                        with cols[idx % num_cols]:
-                            st.image(str(image_path), use_container_width=True)
-                            st.caption(f"Frame {idx + 1}")
-
-                    query_progress.progress(100)
-                    logger.info("Query processing completed successfully")
-                    update_query_log("Query processing complete!")
-
-            except Exception as e:
-                logger.error(f"Error processing query: {str(e)}", exc_info=True)
-                st.error(f"❌ Error processing query: {str(e)}")
+                except Exception as e:
+                    logger.error(f"Error processing query: {str(e)}", exc_info=True)
+                    st.error(f"❌ Error processing query: {str(e)}")
 
     et = time.time()
-    print("Time taken - ", round(et - st_time, 3))
+    logger.info(f"Page rendered in {round(et - st_time, 3)} seconds")
 
 
 if __name__ == "__main__":

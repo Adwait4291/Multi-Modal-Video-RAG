@@ -3,10 +3,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Tuple, List, Dict
 
+import cv2
 import yt_dlp
-from moviepy.video.io.VideoFileClip import VideoFileClip
 from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api.formatters import TextFormatter
 
 
 @dataclass
@@ -27,6 +26,7 @@ class VideoProcessor:
         self.config = config
         self.logger = logging.getLogger(__name__)
         self.video_id = self._extract_video_id(url)
+        self._progress_callback = None
 
     def _extract_video_id(self, url: str) -> str:
         try:
@@ -39,46 +39,38 @@ class VideoProcessor:
             self.logger.error(f"Failed to extract video ID from URL: {url} - {e}")
             raise ValueError(f"Invalid YouTube URL: {e}")
 
-    def download_video(self, progress_callback=None) -> Tuple[VideoMetadata, Path]:
-        filename = f"{self.video_id}.mp4"
-        output_path = Path(self.config["video_dir"]) / filename
-
+    def get_video_info(self, progress_callback=None) -> Tuple[VideoMetadata, str]:
+        """
+        Fetches video metadata and a direct stream URL without downloading the file.
+        """
+        self._progress_callback = progress_callback
         ydl_opts = {
-            "format": "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
-            "outtmpl": str(output_path),
+            "format": "best",
             "quiet": True,
             "no_warnings": True,
             "progress_hooks": [self._progress_hook],
         }
 
-        self._progress_callback = progress_callback
-
         try:
-            self.logger.info(f"Starting download of video: {self.url}")
+            self.logger.info(f"Fetching video info for: {self.url}")
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                info = ydl.extract_info(self.url, download=True)
-
-            if not output_path.exists():
-                raise FileNotFoundError(f"Download failed - no file created at {output_path}")
-
-            with VideoFileClip(str(output_path)) as clip:
-                duration = int(clip.duration)
+                info = ydl.extract_info(self.url, download=False)
 
             metadata = VideoMetadata(
                 title=info.get("title", "Unknown"),
                 author=info.get("uploader", "Unknown"),
                 views=info.get("view_count", 0),
-                duration=duration,
-                filesize_mb=round(output_path.stat().st_size / (1024 * 1024), 2),
+                duration=int(info.get("duration", 0)),
+                filesize_mb=0,  # Not applicable for streaming
                 format=info.get("format", "Unknown"),
                 resolution=f"{info.get('width', 'Unknown')}x{info.get('height', 'Unknown')}",
                 video_id=self.video_id,
             )
-            return metadata, output_path
+            stream_url = info['url']
+            self.logger.info("Successfully fetched video info and stream URL.")
+            return metadata, stream_url
         except Exception as e:
-            self.logger.error(f"Failed to download video: {str(e)}")
-            if output_path.exists():
-                output_path.unlink()
+            self.logger.error(f"Failed to fetch video info: {str(e)}")
             raise
         finally:
             self._progress_callback = None
@@ -87,25 +79,49 @@ class VideoProcessor:
         if self._progress_callback:
             status = ""
             if d["status"] == "downloading":
-                status = f"Downloading video... ({d.get('_percent_str', '0%')})"
+                status = f"Fetching video info... ({d.get('_percent_str', '0%')})"
             elif d["status"] == "finished":
-                status = "Processing downloaded video..."
+                status = "Processing video info..."
 
             if status:
                 self._progress_callback(status)
 
-    def extract_frames(self, video_path: Path) -> Path:
+    def extract_frames(self, stream_url: str) -> Path:
+        """
+        Extracts frames from a video stream using OpenCV.
+        """
         output_dir = Path(self.config["data_dir"])
         output_dir.mkdir(exist_ok=True)
 
         try:
-            self.logger.info(f"Extracting frames from video: {video_path}")
-            with VideoFileClip(str(video_path)) as clip:
-                fps = 1 / self.config["frame_interval"]
-                clip.write_images_sequence(str(output_dir / "frame%04d.png"), fps=fps, logger=None)
+            self.logger.info(f"Extracting frames from stream...")
+            cap = cv2.VideoCapture(stream_url)
+            fps = cap.get(cv2.CAP_PROP_FPS)
+            if fps == 0:  # Handle potential issues with getting FPS
+                fps = 25
+                self.logger.warning("Could not determine FPS, defaulting to 25.")
+                
+            frame_interval = int(fps * self.config["frame_interval"])
+            frame_count = 0
+            saved_frame_count = 0
+
+            while cap.isOpened():
+                ret, frame = cap.read()
+                if not ret:
+                    break
+
+                if frame_count % frame_interval == 0:
+                    frame_filename = output_dir / f"frame{saved_frame_count:04d}.png"
+                    cv2.imwrite(str(frame_filename), frame)
+                    saved_frame_count += 1
+                
+                frame_count += 1
+
+            cap.release()
+            self.logger.info(f"Successfully extracted {saved_frame_count} frames.")
             return output_dir
         except Exception as e:
-            self.logger.error(f"Failed to extract frames: {str(e)}")
+            self.logger.error(f"Failed to extract frames from stream: {str(e)}")
             raise
 
     def extract_captions(self) -> Path:
@@ -115,10 +131,7 @@ class VideoProcessor:
         try:
             self.logger.info(f"Extracting captions for video: {self.video_id}")
             
-            # Method 1: Try to get transcript with language preferences
-            transcript_list = None
-            transcript = None
-            
+            srt_data = None
             try:
                 # Get available transcripts
                 transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
@@ -126,28 +139,27 @@ class VideoProcessor:
                 # Try to find English transcript first
                 try:
                     transcript = transcript_list.find_transcript(['en', 'en-US', 'en-GB'])
-                    self.logger.info("Found English transcript")
+                    self.logger.info("Found English transcript.")
                 except:
                     # If no English, try auto-generated
                     try:
                         transcript = transcript_list.find_generated_transcript(['en'])
-                        self.logger.info("Found auto-generated English transcript")
+                        self.logger.info("Found auto-generated English transcript.")
                     except:
                         # Get any available transcript
                         transcript = next(iter(transcript_list))
-                        self.logger.info(f"Using available transcript: {transcript.language}")
+                        self.logger.info(f"Using first available transcript: {transcript.language}")
                 
-                # Fetch the actual transcript data
                 srt_data = transcript.fetch()
-                
+            
             except Exception as e:
-                self.logger.error(f"Failed to get transcript via list method: {e}")
-                # Fallback: Try direct method (older API style)
+                self.logger.warning(f"Failed to get transcript via list method: {e}. Falling back to direct method.")
+                # Fallback: Try direct method
                 try:
                     srt_data = YouTubeTranscriptApi.get_transcript(self.video_id, languages=['en', 'en-US'])
                 except Exception as e2:
-                    self.logger.error(f"Failed to get transcript via direct method: {e2}")
-                    # Try without language specification
+                    self.logger.warning(f"Failed to get transcript via direct method: {e2}. Trying without language preference.")
+                    # Try without language specification as a last resort
                     srt_data = YouTubeTranscriptApi.get_transcript(self.video_id)
 
             # Create caption file
@@ -168,11 +180,11 @@ class VideoProcessor:
             return caption_file
             
         except Exception as e:
-            self.logger.error(f"Failed to extract captions: {str(e)}")
-            # Create empty caption file as fallback
+            self.logger.error(f"Could not extract any captions: {str(e)}")
+            # Create empty caption file as a final fallback
             caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
             caption_file.write_text("", encoding='utf-8')
-            self.logger.warning(f"Created empty caption file: {caption_file}")
+            self.logger.warning(f"Created an empty caption file as a fallback: {caption_file}")
             return caption_file
 
     def get_available_transcripts(self) -> List[Dict]:
