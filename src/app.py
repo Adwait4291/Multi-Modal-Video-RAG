@@ -7,7 +7,7 @@ import streamlit as st
 import yaml
 from inference import InferenceProcessor
 from retriever import VideoRetriever
-from utils.helpers import cleanup_data_directories
+from utils.helper import cleanup_data_directories
 from utils.logger import setup_logger
 from video_indexer import VideoIndexer
 from video_processor import VideoProcessor
@@ -91,7 +91,7 @@ def load_config():
     """
     Load and parse the application configuration from the YAML file.
     """
-    config_path = "video_rag_app/config/config.yaml"
+    config_path = "config\config.yaml"
     logger.info(f"Loading configuration from {config_path}")
 
     try:
@@ -171,6 +171,25 @@ def main():
 
     # Sidebar
     st.sidebar.header("Settings ⚙️")
+    
+    # --- ADDED: Sliders for top_k configuration ---
+    st.sidebar.subheader("Retrieval Settings")
+    similarity_top_k = st.sidebar.slider(
+        "Relevant Text Chunks (Top K)",
+        min_value=1,
+        max_value=10,
+        value=5,
+        help="Controls how many of the most similar text segments are retrieved for a query."
+    )
+    image_similarity_top_k = st.sidebar.slider(
+        "Relevant Image Frames (Top K)",
+        min_value=1,
+        max_value=10,
+        value=5,
+        help="Controls how many of the most similar image frames are retrieved for a query."
+    )
+    # --- END ADDED ---
+
     if st.sidebar.button("🧹 Cleanup All Data"):
         try:
             logger.info("Starting cleanup of data directories")
@@ -207,11 +226,8 @@ def main():
                 update_log("Initializing video processor...", 5)
                 video_processor = VideoProcessor(video_url, config)
 
-                def handle_progress(status):
-                    update_log(status, 15)
-
                 update_log("Fetching video info...", 10)
-                metadata, stream_url = video_processor.get_video_info(progress_callback=handle_progress)
+                metadata, stream_url = video_processor.get_video_info()
                 
                 def format_duration(seconds):
                     return f"{seconds//60}:{seconds%60:02d}"
@@ -234,7 +250,14 @@ def main():
                 st.session_state.index = index
                 st.session_state.video_url = video_url
                 st.session_state.video_id = video_processor.video_id
-                st.session_state.retriever = VideoRetriever(index)
+                
+                # --- UPDATED: Pass slider values to retriever ---
+                st.session_state.retriever = VideoRetriever(
+                    index, 
+                    similarity_top_k=similarity_top_k, 
+                    image_similarity_top_k=image_similarity_top_k
+                )
+                # --- END UPDATED ---
 
                 update_log("Video processed successfully!", 100)
                 logger.info("Video processing completed successfully")
