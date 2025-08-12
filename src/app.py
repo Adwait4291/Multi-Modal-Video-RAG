@@ -91,7 +91,7 @@ def load_config():
     """
     Load and parse the application configuration from the YAML file.
     """
-    config_path = "config\config.yaml"
+    config_path = "config/config.yaml"
     logger.info(f"Loading configuration from {config_path}")
 
     try:

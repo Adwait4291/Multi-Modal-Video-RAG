@@ -40,9 +40,6 @@ class VideoProcessor:
             raise ValueError(f"Invalid YouTube URL: {e}")
 
     def get_video_info(self, progress_callback=None) -> Tuple[VideoMetadata, str]:
-        """
-        Fetches video metadata and a direct stream URL without downloading the file.
-        """
         self._progress_callback = progress_callback
         ydl_opts = {
             "format": "best",
@@ -61,7 +58,7 @@ class VideoProcessor:
                 author=info.get("uploader", "Unknown"),
                 views=info.get("view_count", 0),
                 duration=int(info.get("duration", 0)),
-                filesize_mb=0,  # Not applicable for streaming
+                filesize_mb=0,
                 format=info.get("format", "Unknown"),
                 resolution=f"{info.get('width', 'Unknown')}x{info.get('height', 'Unknown')}",
                 video_id=self.video_id,
@@ -87,9 +84,6 @@ class VideoProcessor:
                 self._progress_callback(status)
 
     def extract_frames(self, stream_url: str) -> Path:
-        """
-        Extracts frames from a video stream using OpenCV.
-        """
         output_dir = Path(self.config["data_dir"])
         output_dir.mkdir(exist_ok=True)
 
@@ -97,7 +91,7 @@ class VideoProcessor:
             self.logger.info(f"Extracting frames from stream...")
             cap = cv2.VideoCapture(stream_url)
             fps = cap.get(cv2.CAP_PROP_FPS)
-            if fps == 0:  # Handle potential issues with getting FPS
+            if fps == 0:
                 fps = 25
                 self.logger.warning("Could not determine FPS, defaulting to 25.")
                 
@@ -132,11 +126,7 @@ class VideoProcessor:
         
         try:
             self.logger.info(f"Attempting to extract captions for video: {self.video_id}")
-            # The library automatically handles finding the best transcript.
-            # We ask for English first, but it will fall back to other available languages.
             transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
-            
-            # Find the best transcript, preferring manual English, then generated English, then any other.
             transcript = transcript_list.find_transcript(['en', 'en-US', 'en-GB'])
             self.logger.info("Found a manual English transcript.")
 
@@ -147,7 +137,6 @@ class VideoProcessor:
                 self.logger.info("Found an auto-generated English transcript.")
             except NoTranscriptFound:
                 self.logger.warning("No English transcript available. Trying any other language.")
-                # Fallback to the first available transcript if no English is found
                 try:
                     transcript = next(iter(transcript_list))
                     self.logger.info(f"Found a transcript in another language: {transcript.language_code}")
@@ -155,7 +144,6 @@ class VideoProcessor:
                      self.logger.error(f"No transcripts whatsoever found for video {self.video_id}")
                      caption_file.write_text("", encoding='utf-8')
                      return caption_file
-
 
         except TranscriptsDisabled:
             self.logger.error(f"Transcripts are disabled for video {self.video_id}")
@@ -167,7 +155,6 @@ class VideoProcessor:
             caption_file.write_text("", encoding='utf-8')
             return caption_file
 
-        # Process the fetched transcript
         try:
             srt_data = transcript.fetch()
             caption_text = []
@@ -188,21 +175,17 @@ class VideoProcessor:
 
 
     def get_available_transcripts(self) -> List[Dict]:
-        """
-        Get list of available transcripts for debugging purposes.
-        """
         try:
             transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
-            transcripts = []
-            
-            for transcript in transcript_list:
-                transcripts.append({
-                    'language': transcript.language,
-                    'language_code': transcript.language_code,
-                    'is_generated': transcript.is_generated,
-                    'is_translatable': transcript.is_translatable
-                })
-            
+            transcripts = [
+                {
+                    'language': t.language,
+                    'language_code': t.language_code,
+                    'is_generated': t.is_generated,
+                    'is_translatable': t.is_translatable,
+                }
+                for t in transcript_list
+            ]
             return transcripts
         except Exception as e:
             self.logger.error(f"Failed to get available transcripts: {e}")
