@@ -12,6 +12,7 @@ from utils.logger import setup_logger
 from video_indexer import VideoIndexer
 from video_processor import VideoProcessor
 
+
 # Setup logger
 logger = setup_logger()
 

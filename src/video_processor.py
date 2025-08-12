@@ -2,10 +2,11 @@ import logging
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Tuple, List, Dict
-
+import re
 import cv2
 import yt_dlp
-from youtube_transcript_api import YouTubeTranscriptApi, NoTranscriptFound, TranscriptsDisabled
+
+# NOTE: This file no longer uses or requires the youtube-transcript-api library.
 
 @dataclass
 class VideoMetadata:
@@ -25,8 +26,6 @@ class VideoProcessor:
         self.logger = logging.getLogger(__name__)
         self.video_id = self._extract_video_id(url)
         self._progress_callback = None
-        # This is the crucial step: create an instance of the API class
-        self.transcript_api = YouTubeTranscriptApi()
 
     def _extract_video_id(self, url: str) -> str:
         try:
@@ -93,7 +92,7 @@ class VideoProcessor:
             if fps == 0:
                 fps = 25
                 self.logger.warning("Could not determine FPS, defaulting to 25.")
-                
+
             frame_interval = int(fps * self.config["frame_interval"])
             frame_count = 0
             saved_frame_count = 0
@@ -115,100 +114,84 @@ class VideoProcessor:
             self.logger.error(f"Failed to extract frames from stream: {str(e)}")
             raise
 
-def extract_captions(self) -> Path:
-    caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
+    def extract_captions(self) -> Path:
+        """
+        Extracts captions robustly using yt-dlp by forcing subtitle download.
+        This bypasses the need for any other transcript library.
+        """
+        self.logger.info("Extracting captions using robust yt-dlp method...")
+        caption_file_path = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
+        
+        # Define the output template for the caption file
+        output_template = str(Path(self.config["data_dir"]) / f"{self.video_id}.%(ext)s")
 
-    try:
-        self.logger.info(f"Attempting to fetch transcripts for video: {self.video_id}")
+        ydl_opts = {
+            'writesubtitles': True,
+            'writeautomaticsub': True,
+            'subtitleslangs': ['en', 'en-US'],
+            'subtitlesformat': 'vtt', # Specify VTT format
+            'skip_download': True,
+            'outtmpl': output_template,
+            'quiet': True,
+            'no_warnings': True,
+        }
 
-        # Detect API method version
-        if hasattr(self.transcript_api, "list_transcripts"):
-            # Modern API flow
-            transcript_list = self.transcript_api.list_transcripts(self.video_id)
-            try:
-                transcript = transcript_list.find_transcript(['en', 'en-US', 'en-GB'])
-            except NoTranscriptFound:
-                try:
-                    transcript = transcript_list.find_generated_transcript(['en', 'en-US', 'en-GB'])
-                except NoTranscriptFound:
-                    transcript = next(iter(transcript_list), None)
+        try:
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                self.logger.info("Running yt-dlp to download subtitles...")
+                ydl.extract_info(self.url, download=False)
+                self.logger.info("yt-dlp finished execution.")
 
-            if transcript:
-                srt_data = transcript.fetch()
+            # Search for the downloaded .vtt file
+            vtt_file_path_str = str(Path(self.config["data_dir"]) / f"{self.video_id}.en.vtt")
+            vtt_file = Path(vtt_file_path_str)
 
-        elif hasattr(self.transcript_api, "list"):
-            # Legacy API flow
-            transcript_list = self.transcript_api.list(self.video_id)
-            transcript = None
-            for t in transcript_list:
-                if t.get("language_code") in ['en', 'en-US', 'en-GB']:
-                    transcript = t
-                    break
-            if not transcript and transcript_list:
-                transcript = transcript_list[0]
+            if not vtt_file.exists():
+                # Try finding any .vtt file as a fallback
+                vtt_file = next(Path(self.config["data_dir"]).glob(f"{self.video_id}*.vtt"), None)
 
-            if transcript:
-                srt_data = self.transcript_api.fetch(self.video_id, transcript['language_code'])
+            if not vtt_file or not vtt_file.exists():
+                self.logger.error(f"FATAL: yt-dlp did not create a caption file for video {self.video_id}.")
+                caption_file_path.write_text("", encoding='utf-8')
+                return caption_file_path
 
-        else:
-            self.logger.error("youtube-transcript-api has no transcript listing method.")
-            caption_file.write_text("", encoding='utf-8')
-            return caption_file
+            self.logger.info(f"Found caption file: {vtt_file}")
+            # Parse the VTT file
+            with open(vtt_file, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
 
-        if not transcript:
-            self.logger.warning(f"No transcript found for video {self.video_id}")
-            caption_file.write_text("", encoding='utf-8')
-            return caption_file
+            caption_text = []
+            for i, line in enumerate(lines):
+                if "-->" in line:
+                    try:
+                        time_match = re.search(r'(\d{2}:\d{2}:\d{2}\.\d{3}) --> (\d{2}:\d{2}:\d{2}\.\d{3})', line)
+                        if time_match:
+                            start_time_str, end_time_str = time_match.groups()
+                            
+                            def to_seconds(t_str):
+                                parts = t_str.split(':')
+                                h, m = int(parts[0]), int(parts[1])
+                                s, ms = map(int, parts[2].split('.'))
+                                return h * 3600 + m * 60 + s + ms / 1000
 
-        # Save captions in <s> format
-        caption_text = []
-        for entry in srt_data:
-            start = entry.get("start", 0)
-            duration = entry.get("duration", 0)
-            end = start + duration
-            text = entry.get("text", "").strip().replace('\n', ' ')
-            caption_text.append(f"<s> {start:.2f} | {end:.2f} | {text} </s>")
+                            start_sec = to_seconds(start_time_str)
+                            end_sec = to_seconds(end_time_str)
+                            
+                            text = lines[i + 1].strip()
+                            if text:
+                                caption_text.append(f"<s> {start_sec:.2f} | {end_sec:.2f} | {text} </s>")
+                    except Exception as parse_error:
+                        self.logger.warning(f"Could not parse VTT line: {line.strip()} due to {parse_error}")
+                        continue
 
-        caption_file.write_text("\n".join(caption_text), encoding='utf-8')
-        self.logger.info(f"Captions saved with {len(caption_text)} entries to {caption_file}")
+            caption_file_path.write_text("\n".join(caption_text), encoding='utf-8')
+            self.logger.info(f"Successfully parsed and saved {len(caption_text)} caption entries.")
+            
+            # Clean up the temporary .vtt file
+            vtt_file.unlink()
 
-    except TranscriptsDisabled:
-        self.logger.error(f"Transcripts are disabled for video {self.video_id}")
-        caption_file.write_text("", encoding='utf-8')
-    except Exception as e:
-        self.logger.error(f"Unexpected error fetching captions: {e}")
-        caption_file.write_text("", encoding='utf-8')
+        except Exception as e:
+            self.logger.error(f"A critical error occurred during caption extraction with yt-dlp: {str(e)}")
+            caption_file_path.write_text("", encoding='utf-8')
 
-    return caption_file
-
-
-def get_available_transcripts(self) -> List[Dict]:
-    try:
-        if hasattr(self.transcript_api, "list_transcripts"):
-            transcript_list_obj = self.transcript_api.list_transcripts(self.video_id)
-            return [
-                {
-                    'language': t.language,
-                    'language_code': t.language_code,
-                    'is_generated': t.is_generated,
-                    'is_translatable': t.is_translatable,
-                }
-                for t in transcript_list_obj
-            ]
-        elif hasattr(self.transcript_api, "list"):
-            transcript_list_obj = self.transcript_api.list(self.video_id)
-            return [
-                {
-                    'language': t.get("language"),
-                    'language_code': t.get("language_code"),
-                    'is_generated': t.get("is_generated", False),
-                    'is_translatable': t.get("is_translatable", False),
-                }
-                for t in transcript_list_obj
-            ]
-        else:
-            self.logger.error("youtube-transcript-api has no transcript listing method.")
-            return []
-    except Exception as e:
-        self.logger.error(f"Failed to get available transcripts: {e}")
-        return []
+        return caption_file_path
