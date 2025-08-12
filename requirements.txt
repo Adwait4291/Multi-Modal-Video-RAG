@@ -12,3 +12,4 @@ transformers==4.38.2
 torch==2.2.1
 tqdm==4.66.2
 loguru==0.7.2
+AIzaSyBLGCQYLFM7R4B3G52lu4alIAuhXe_y5Rw

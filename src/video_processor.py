@@ -24,8 +24,8 @@ class VideoProcessor:
     def __init__(self, url: str, config: dict):
         self.url = url
         self.config = config
-        self.video_id = self._extract_video_id(url)
         self.logger = logging.getLogger(__name__)
+        self.video_id = self._extract_video_id(url)
 
     def _extract_video_id(self, url: str) -> str:
         try:
@@ -35,7 +35,7 @@ class VideoProcessor:
                 return url.split("youtu.be/")[1].split("?")[0]
             raise ValueError("Invalid YouTube URL format")
         except Exception as e:
-            self.logger.error(f"Failed to extract video ID from URL: {url}")
+            self.logger.error(f"Failed to extract video ID from URL: {url} - {e}")
             raise ValueError(f"Invalid YouTube URL: {e}")
 
     def download_video(self, progress_callback=None) -> Tuple[VideoMetadata, Path]:
@@ -45,7 +45,7 @@ class VideoProcessor:
         ydl_opts = {
             "format": "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
             "outtmpl": str(output_path),
-            "quiet": False,
+            "quiet": True,
             "no_warnings": True,
             "progress_hooks": [self._progress_hook],
         }
@@ -57,13 +57,9 @@ class VideoProcessor:
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(self.url, download=True)
 
-            # Verify download
             if not output_path.exists():
-                raise FileNotFoundError(
-                    f"Download failed - no file created at {output_path}"
-                )
+                raise FileNotFoundError(f"Download failed - no file created at {output_path}")
 
-            # Get video duration
             with VideoFileClip(str(output_path)) as clip:
                 duration = int(clip.duration)
 
@@ -90,8 +86,7 @@ class VideoProcessor:
         if self._progress_callback:
             status = ""
             if d["status"] == "downloading":
-                # Simple status without calculations
-                status = f"Downloading video... ({d.get('_percent_str', '')})"
+                status = f"Downloading video... ({d.get('_percent_str', '0%')})"
             elif d["status"] == "finished":
                 status = "Processing downloaded video..."
 
@@ -106,7 +101,7 @@ class VideoProcessor:
             self.logger.info(f"Extracting frames from video: {video_path}")
             with VideoFileClip(str(video_path)) as clip:
                 fps = 1 / self.config["frame_interval"]
-                clip.write_images_sequence(str(output_dir / "frame%04d.png"), fps=fps)
+                clip.write_images_sequence(str(output_dir / "frame%04d.png"), fps=fps, logger=None)
             return output_dir
         except Exception as e:
             self.logger.error(f"Failed to extract frames: {str(e)}")
@@ -115,11 +110,11 @@ class VideoProcessor:
     def extract_captions(self) -> Path:
         try:
             self.logger.info(f"Extracting captions for video: {self.video_id}")
+            
+            # This is the corrected way to get the transcript
             srt = YouTubeTranscriptApi.get_transcript(self.video_id)
 
-            caption_file = (
-                Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
-            )
+            caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
             caption_text = []
 
             for entry in srt:

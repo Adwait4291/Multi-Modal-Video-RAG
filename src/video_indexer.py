@@ -4,8 +4,8 @@ from pathlib import Path
 import qdrant_client
 from llama_index.core import Settings, SimpleDirectoryReader, StorageContext
 from llama_index.core.indices import MultiModalVectorStoreIndex
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from llama_index.vector_stores.qdrant import QdrantVectorStore
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding 
+from llama_index.vector_stores.qdrant import QdrantVectorStore 
 
 
 class VideoIndexer:
