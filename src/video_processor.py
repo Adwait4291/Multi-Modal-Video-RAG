@@ -5,7 +5,7 @@ from typing import Tuple, List, Dict
 
 import cv2
 import yt_dlp
-from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api import YouTubeTranscriptApi, NoTranscriptFound, TranscriptsDisabled
 
 
 @dataclass
@@ -126,66 +126,66 @@ class VideoProcessor:
 
     def extract_captions(self) -> Path:
         """
-        Extract captions/transcript from YouTube video with multiple fallback options.
+        Extracts captions using a simplified and robust method.
         """
+        caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
+        
         try:
-            self.logger.info(f"Extracting captions for video: {self.video_id}")
+            self.logger.info(f"Attempting to extract captions for video: {self.video_id}")
+            # The library automatically handles finding the best transcript.
+            # We ask for English first, but it will fall back to other available languages.
+            transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
             
-            srt_data = None
+            # Find the best transcript, preferring manual English, then generated English, then any other.
+            transcript = transcript_list.find_transcript(['en', 'en-US', 'en-GB'])
+            self.logger.info("Found a manual English transcript.")
+
+        except NoTranscriptFound:
             try:
-                # Get available transcripts
-                transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
-                
-                # Try to find English transcript first
+                self.logger.warning("No manual English transcript found, trying auto-generated English.")
+                transcript = transcript_list.find_generated_transcript(['en', 'en-US', 'en-GB'])
+                self.logger.info("Found an auto-generated English transcript.")
+            except NoTranscriptFound:
+                self.logger.warning("No English transcript available. Trying any other language.")
+                # Fallback to the first available transcript if no English is found
                 try:
-                    transcript = transcript_list.find_transcript(['en', 'en-US', 'en-GB'])
-                    self.logger.info("Found English transcript.")
-                except:
-                    # If no English, try auto-generated
-                    try:
-                        transcript = transcript_list.find_generated_transcript(['en'])
-                        self.logger.info("Found auto-generated English transcript.")
-                    except:
-                        # Get any available transcript
-                        transcript = next(iter(transcript_list))
-                        self.logger.info(f"Using first available transcript: {transcript.language}")
-                
-                srt_data = transcript.fetch()
-            
-            except Exception as e:
-                self.logger.warning(f"Failed to get transcript via list method: {e}. Falling back to direct method.")
-                # Fallback: Try direct method
-                try:
-                    srt_data = YouTubeTranscriptApi.get_transcript(self.video_id, languages=['en', 'en-US'])
-                except Exception as e2:
-                    self.logger.warning(f"Failed to get transcript via direct method: {e2}. Trying without language preference.")
-                    # Try without language specification as a last resort
-                    srt_data = YouTubeTranscriptApi.get_transcript(self.video_id)
+                    transcript = next(iter(transcript_list))
+                    self.logger.info(f"Found a transcript in another language: {transcript.language_code}")
+                except StopIteration:
+                     self.logger.error(f"No transcripts whatsoever found for video {self.video_id}")
+                     caption_file.write_text("", encoding='utf-8')
+                     return caption_file
 
-            # Create caption file
-            caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
+
+        except TranscriptsDisabled:
+            self.logger.error(f"Transcripts are disabled for video {self.video_id}")
+            caption_file.write_text("", encoding='utf-8')
+            return caption_file
+
+        except Exception as e:
+            self.logger.error(f"An unexpected error occurred during caption extraction: {str(e)}")
+            caption_file.write_text("", encoding='utf-8')
+            return caption_file
+
+        # Process the fetched transcript
+        try:
+            srt_data = transcript.fetch()
             caption_text = []
-
-            # Process transcript data
             for entry in srt_data:
                 start = entry["start"]
                 duration = entry.get("duration", 0)
                 end = start + duration
                 text = entry["text"].strip().replace('\n', ' ')
                 caption_text.append(f"<s> {start:.2f} | {end:.2f} | {text} </s>")
-
-            # Save to file
+            
             caption_file.write_text("\n".join(caption_text), encoding='utf-8')
             self.logger.info(f"Captions saved with {len(caption_text)} entries to {caption_file}")
-            return caption_file
-            
         except Exception as e:
-            self.logger.error(f"Could not extract any captions: {str(e)}")
-            # Create empty caption file as a final fallback
-            caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
+            self.logger.error(f"Failed to process the fetched transcript: {str(e)}")
             caption_file.write_text("", encoding='utf-8')
-            self.logger.warning(f"Created an empty caption file as a fallback: {caption_file}")
-            return caption_file
+
+        return caption_file
+
 
     def get_available_transcripts(self) -> List[Dict]:
         """
