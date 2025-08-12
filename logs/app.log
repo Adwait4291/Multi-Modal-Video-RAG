@@ -2391,3 +2391,636 @@ Traceback (most recent call last):
     transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 16:55:00 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:55:00 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 16:56:12 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:12 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:12 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 16:56:12 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 16:56:12 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:12 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:12 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:12 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 16:56:12 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 16:56:12 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 16:56:12 | INFO | root | main:116 - API key submitted successfully
+2025-08-12 16:56:12 | INFO | root | main:116 - API key submitted successfully
+2025-08-12 16:56:12 | INFO | root | main:116 - API key submitted successfully
+2025-08-12 16:56:12 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:12 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:12 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:12 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:12 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:12 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:12 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:12 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:12 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 16:56:12 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 16:56:12 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 16:56:12 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 16:56:19 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:19 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:19 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:19 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:19 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:19 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:19 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:19 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:19 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:19 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:20 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:20 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:20 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:20 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:20 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:20 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 16:56:20 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:20 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:20 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:20 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:20 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:20 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 16:56:20 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | video_processor | download_video:56 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | video_processor | download_video:56 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | video_processor | download_video:56 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | video_processor | download_video:56 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | video_processor | download_video:56 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:20 | INFO | video_processor | download_video:56 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 16:56:33 | INFO | video_processor | extract_frames:101 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 16:56:33 | INFO | video_processor | extract_frames:101 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 16:56:33 | INFO | video_processor | extract_frames:101 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 16:56:33 | INFO | video_processor | extract_frames:101 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 16:56:33 | INFO | video_processor | extract_frames:101 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 16:56:33 | INFO | video_processor | extract_frames:101 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 16:58:21 | INFO | video_processor | extract_captions:112 - Extracting captions for video: Her4sTKSJww
+2025-08-12 16:58:21 | INFO | video_processor | extract_captions:112 - Extracting captions for video: Her4sTKSJww
+2025-08-12 16:58:21 | INFO | video_processor | extract_captions:112 - Extracting captions for video: Her4sTKSJww
+2025-08-12 16:58:21 | INFO | video_processor | extract_captions:112 - Extracting captions for video: Her4sTKSJww
+2025-08-12 16:58:21 | INFO | video_processor | extract_captions:112 - Extracting captions for video: Her4sTKSJww
+2025-08-12 16:58:21 | INFO | video_processor | extract_captions:112 - Extracting captions for video: Her4sTKSJww
+2025-08-12 16:58:21 | ERROR | video_processor | extract_captions:130 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | video_processor | extract_captions:130 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | video_processor | extract_captions:130 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | video_processor | extract_captions:130 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | video_processor | extract_captions:130 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | video_processor | extract_captions:130 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | root | main:243 - Error processing video: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 220, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_processor.py", line 115, in extract_captions
+    srt = YouTubeTranscriptApi.get_transcript(self.video_id)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | root | main:243 - Error processing video: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 220, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_processor.py", line 115, in extract_captions
+    srt = YouTubeTranscriptApi.get_transcript(self.video_id)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | root | main:243 - Error processing video: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 220, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_processor.py", line 115, in extract_captions
+    srt = YouTubeTranscriptApi.get_transcript(self.video_id)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | root | main:243 - Error processing video: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 220, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_processor.py", line 115, in extract_captions
+    srt = YouTubeTranscriptApi.get_transcript(self.video_id)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | root | main:243 - Error processing video: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 220, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_processor.py", line 115, in extract_captions
+    srt = YouTubeTranscriptApi.get_transcript(self.video_id)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 16:58:21 | ERROR | root | main:243 - Error processing video: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 220, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_processor.py", line 115, in extract_captions
+    srt = YouTubeTranscriptApi.get_transcript(self.video_id)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:02:41 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:02:41 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:02:47 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:02:47 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:02:47 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:02:47 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:02:48 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:02:48 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:02:48 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:02:48 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:02:48 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:02:48 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:02:48 | INFO | root | main:116 - API key submitted successfully
+2025-08-12 17:02:48 | INFO | root | main:116 - API key submitted successfully
+2025-08-12 17:02:48 | INFO | root | main:116 - API key submitted successfully
+2025-08-12 17:02:48 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:02:48 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:02:48 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:02:48 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:02:48 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:02:48 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:02:48 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:02:48 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:02:48 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 17:02:48 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 17:02:48 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 17:02:48 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:03:08 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:08 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:03:20 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:03:20 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:03:20 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:03:20 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:03:20 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:03:20 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:05:07 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:05:07 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:05:07 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:05:07 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:05:07 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:05:07 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:05:07 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:05:07 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:05:07 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:05:07 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:05:07 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:05:07 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:05:07 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:05:07 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:05:07 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:05:07 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:05:07 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:05:07 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:09:32 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:09:32 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:09:32 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:09:32 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:09:32 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:09:32 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:09:32 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:09:32 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:09:32 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:09:32 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:09:32 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:09:32 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:09:37 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | root | main:243 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 226, in main
+    index = indexer.create_multimodal_index(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | root | main:243 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 226, in main
+    index = indexer.create_multimodal_index(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | root | main:243 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 226, in main
+    index = indexer.create_multimodal_index(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | root | main:243 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 226, in main
+    index = indexer.create_multimodal_index(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | root | main:243 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 226, in main
+    index = indexer.create_multimodal_index(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:09:37 | ERROR | root | main:243 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 226, in main
+    index = indexer.create_multimodal_index(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\venv\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-12 17:13:10 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:13:11 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:56:27 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:27 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:27 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:56:27 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:56:31 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:31 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:31 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:31 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:56:31 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:56:31 | INFO | root | main:105 - No Gemini API key found - displaying key input form
+2025-08-12 17:56:31 | INFO | root | main:116 - API key submitted successfully
+2025-08-12 17:56:31 | INFO | root | main:116 - API key submitted successfully
+2025-08-12 17:56:31 | INFO | root | main:116 - API key submitted successfully
+2025-08-12 17:56:31 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:31 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:31 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:31 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:31 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:31 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:31 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:31 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:31 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 17:56:31 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 17:56:31 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 17:56:31 | INFO | root | main:132 - Initializing InferenceProcessor
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 17:56:40 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | root | main:169 - Starting video processing for URL: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:40 | INFO | video_processor | download_video:57 - Starting download of video: https://www.youtube.com/watch?v=Her4sTKSJww
+2025-08-12 17:56:53 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:56:53 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:56:53 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:56:53 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:56:53 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:56:53 | INFO | video_processor | extract_frames:102 - Extracting frames from video: db\video\Her4sTKSJww.mp4
+2025-08-12 17:58:45 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:58:45 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:58:45 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:58:45 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:58:45 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:58:45 | INFO | video_processor | extract_captions:116 - Extracting captions for video: Her4sTKSJww
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:144 - Failed to get transcript via list method: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:149 - Failed to get transcript via direct method: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | ERROR | video_processor | extract_captions:171 - Failed to extract captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 17:58:45 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:58:45 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:58:45 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:58:45 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:58:45 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:58:45 | WARNING | video_processor | extract_captions:175 - Created empty caption file: db\datafiles\captions_Her4sTKSJww.txt
+2025-08-12 17:58:46 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:58:46 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:58:46 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:58:46 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:58:46 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:58:46 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 17:58:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:58:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:58:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:58:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:58:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:58:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 17:58:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:58:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:58:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:58:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:58:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 17:58:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 18:01:45 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 18:01:45 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 18:01:45 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 18:01:45 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 18:01:45 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 18:01:45 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 18:01:45 | INFO | root | main:238 - Video processing completed successfully
+2025-08-12 18:01:45 | INFO | root | main:238 - Video processing completed successfully
+2025-08-12 18:01:45 | INFO | root | main:238 - Video processing completed successfully
+2025-08-12 18:01:45 | INFO | root | main:238 - Video processing completed successfully
+2025-08-12 18:01:45 | INFO | root | main:238 - Video processing completed successfully
+2025-08-12 18:01:45 | INFO | root | main:238 - Video processing completed successfully
+2025-08-12 18:03:29 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:29 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:29 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:29 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:29 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:29 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:29 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:29 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:29 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:29 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:29 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:29 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:29 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:29 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | main:95 - Starting Video RAG System application + Builtin Voice Mode Activated
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | load_config:45 - Loading configuration from config/config.yaml
+2025-08-12 18:03:59 | INFO | root | main:255 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | root | main:255 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | root | main:255 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | root | main:255 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | root | main:255 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | root | main:255 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | root | main:255 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | root | main:255 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | root | main:255 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | retriever | retrieve:18 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | retriever | retrieve:18 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | retriever | retrieve:18 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | retriever | retrieve:18 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | retriever | retrieve:18 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | retriever | retrieve:18 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | retriever | retrieve:18 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | retriever | retrieve:18 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | retriever | retrieve:18 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | retriever | retrieve:30 - Retrieved 5 images and 0 text segments
+2025-08-12 18:03:59 | INFO | retriever | retrieve:30 - Retrieved 5 images and 0 text segments
+2025-08-12 18:03:59 | INFO | retriever | retrieve:30 - Retrieved 5 images and 0 text segments
+2025-08-12 18:03:59 | INFO | retriever | retrieve:30 - Retrieved 5 images and 0 text segments
+2025-08-12 18:03:59 | INFO | retriever | retrieve:30 - Retrieved 5 images and 0 text segments
+2025-08-12 18:03:59 | INFO | retriever | retrieve:30 - Retrieved 5 images and 0 text segments
+2025-08-12 18:03:59 | INFO | retriever | retrieve:30 - Retrieved 5 images and 0 text segments
+2025-08-12 18:03:59 | INFO | retriever | retrieve:30 - Retrieved 5 images and 0 text segments
+2025-08-12 18:03:59 | INFO | retriever | retrieve:30 - Retrieved 5 images and 0 text segments
+2025-08-12 18:03:59 | INFO | inference | process_query:153 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | inference | process_query:153 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | inference | process_query:153 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | inference | process_query:153 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | inference | process_query:153 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | inference | process_query:153 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | inference | process_query:153 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | inference | process_query:153 - Processing query: key features of  dji
+2025-08-12 18:03:59 | INFO | inference | process_query:153 - Processing query: key features of  dji
+2025-08-12 18:04:08 | INFO | inference | process_query:184 - Successfully processed query
+2025-08-12 18:04:08 | INFO | inference | process_query:184 - Successfully processed query
+2025-08-12 18:04:08 | INFO | inference | process_query:184 - Successfully processed query
+2025-08-12 18:04:08 | INFO | inference | process_query:184 - Successfully processed query
+2025-08-12 18:04:08 | INFO | inference | process_query:184 - Successfully processed query
+2025-08-12 18:04:08 | INFO | inference | process_query:184 - Successfully processed query
+2025-08-12 18:04:08 | INFO | inference | process_query:184 - Successfully processed query
+2025-08-12 18:04:08 | INFO | inference | process_query:184 - Successfully processed query
+2025-08-12 18:04:08 | INFO | inference | process_query:184 - Successfully processed query
+2025-08-12 18:04:09 | INFO | root | main:301 - Query processing completed successfully
+2025-08-12 18:04:09 | INFO | root | main:301 - Query processing completed successfully
+2025-08-12 18:04:09 | INFO | root | main:301 - Query processing completed successfully
+2025-08-12 18:04:09 | INFO | root | main:301 - Query processing completed successfully
+2025-08-12 18:04:09 | INFO | root | main:301 - Query processing completed successfully
+2025-08-12 18:04:09 | INFO | root | main:301 - Query processing completed successfully
+2025-08-12 18:04:09 | INFO | root | main:301 - Query processing completed successfully
+2025-08-12 18:04:09 | INFO | root | main:301 - Query processing completed successfully
+2025-08-12 18:04:09 | INFO | root | main:301 - Query processing completed successfully
