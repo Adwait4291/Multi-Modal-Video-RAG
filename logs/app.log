@@ -7314,3 +7314,321 @@ RuntimeError: Storage folder db\mm_index is already accessed by another instance
 2025-08-12 21:46:48 | INFO | root | main:309 - Page rendered in 22.757 seconds
 2025-08-12 21:46:48 | INFO | root | main:309 - Page rendered in 22.757 seconds
 2025-08-12 21:46:48 | INFO | root | main:309 - Page rendered in 22.757 seconds
+2025-08-12 22:01:12 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:12 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:01:23 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:23 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:23 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:01:23 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:01:23 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:23 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:23 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:23 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:01:23 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:01:23 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:01:23 | INFO | root | main:152 - API key submitted successfully
+2025-08-12 22:01:23 | INFO | root | main:152 - API key submitted successfully
+2025-08-12 22:01:23 | INFO | root | main:152 - API key submitted successfully
+2025-08-12 22:01:24 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:24 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:24 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:24 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:24 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:24 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:24 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:24 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:24 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:01:24 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:01:24 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:01:24 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:01:24 | INFO | root | main:309 - Page rendered in 0.035 seconds
+2025-08-12 22:01:24 | INFO | root | main:309 - Page rendered in 0.035 seconds
+2025-08-12 22:01:24 | INFO | root | main:309 - Page rendered in 0.035 seconds
+2025-08-12 22:01:24 | INFO | root | main:309 - Page rendered in 0.035 seconds
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | main:309 - Page rendered in 0.055 seconds
+2025-08-12 22:01:36 | INFO | root | main:309 - Page rendered in 0.055 seconds
+2025-08-12 22:01:36 | INFO | root | main:309 - Page rendered in 0.055 seconds
+2025-08-12 22:01:36 | INFO | root | main:309 - Page rendered in 0.055 seconds
+2025-08-12 22:01:36 | INFO | root | main:309 - Page rendered in 0.055 seconds
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:01:36 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:36 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:01:43 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-12 22:01:43 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-12 22:01:43 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-12 22:01:43 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-12 22:01:43 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-12 22:01:43 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:129 - Extracting frames from stream...
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:129 - Extracting frames from stream...
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:129 - Extracting frames from stream...
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:129 - Extracting frames from stream...
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:129 - Extracting frames from stream...
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:129 - Extracting frames from stream...
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:148 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:148 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:148 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:148 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:148 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:01:43 | INFO | video_processor | extract_frames:148 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:01:45 | INFO | video_processor | extract_frames:170 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:01:45 | INFO | video_processor | extract_frames:170 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:01:45 | INFO | video_processor | extract_frames:170 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:01:45 | INFO | video_processor | extract_frames:170 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:01:45 | INFO | video_processor | extract_frames:170 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:01:45 | INFO | video_processor | extract_frames:170 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:01:45 | INFO | video_processor | extract_captions:191 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:01:45 | INFO | video_processor | extract_captions:191 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:01:45 | INFO | video_processor | extract_captions:191 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:01:45 | INFO | video_processor | extract_captions:191 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:01:45 | INFO | video_processor | extract_captions:191 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:01:45 | INFO | video_processor | extract_captions:191 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:01:45 | WARNING | video_processor | extract_captions:222 - No transcript data available for video ut9lD8TfLag
+2025-08-12 22:01:45 | WARNING | video_processor | extract_captions:222 - No transcript data available for video ut9lD8TfLag
+2025-08-12 22:01:45 | WARNING | video_processor | extract_captions:222 - No transcript data available for video ut9lD8TfLag
+2025-08-12 22:01:45 | WARNING | video_processor | extract_captions:222 - No transcript data available for video ut9lD8TfLag
+2025-08-12 22:01:45 | WARNING | video_processor | extract_captions:222 - No transcript data available for video ut9lD8TfLag
+2025-08-12 22:01:45 | WARNING | video_processor | extract_captions:222 - No transcript data available for video ut9lD8TfLag
+2025-08-12 22:01:45 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:01:45 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:01:45 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:01:45 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:01:45 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:01:45 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:01:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:01:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:01:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:01:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:01:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:01:51 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:01:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:01:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:01:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:01:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:01:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:01:51 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:03:10 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:03:10 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:03:10 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:03:10 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:03:10 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:03:10 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:13:24 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:24 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:24 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:24 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:25 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:13:25 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:13:53 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:13:53 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:13:53 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:13:53 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:13:53 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:13:53 | INFO | root | main:152 - API key submitted successfully
+2025-08-12 22:13:53 | INFO | root | main:152 - API key submitted successfully
+2025-08-12 22:13:53 | INFO | root | main:152 - API key submitted successfully
+2025-08-12 22:13:53 | INFO | root | main:152 - API key submitted successfully
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:13:53 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:13:53 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:13:53 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:13:53 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:13:53 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:13:53 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:13:53 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:13:53 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:13:53 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:13:53 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:13:53 | INFO | root | main:309 - Page rendered in 0.04 seconds
+2025-08-12 22:13:53 | INFO | root | main:309 - Page rendered in 0.04 seconds
+2025-08-12 22:13:53 | INFO | root | main:309 - Page rendered in 0.04 seconds
+2025-08-12 22:13:53 | INFO | root | main:309 - Page rendered in 0.04 seconds
+2025-08-12 22:13:53 | INFO | root | main:309 - Page rendered in 0.04 seconds
+2025-08-12 22:14:01 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:01 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:01 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:01 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:01 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:01 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:01 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:01 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:01 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:01 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:01 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:01 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:01 | INFO | root | main:309 - Page rendered in 0.024 seconds
+2025-08-12 22:14:01 | INFO | root | main:309 - Page rendered in 0.024 seconds
+2025-08-12 22:14:01 | INFO | root | main:309 - Page rendered in 0.024 seconds
+2025-08-12 22:14:01 | INFO | root | main:309 - Page rendered in 0.024 seconds
+2025-08-12 22:14:01 | INFO | root | main:309 - Page rendered in 0.024 seconds
+2025-08-12 22:14:01 | INFO | root | main:309 - Page rendered in 0.024 seconds
+2025-08-12 22:14:02 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:02 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:02 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:02 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:02 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:02 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:02 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:14:02 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:02 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:02 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:02 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:02 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:02 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:02 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:14:02 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | video_processor | get_video_info:62 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | video_processor | get_video_info:62 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | video_processor | get_video_info:62 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | video_processor | get_video_info:62 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | video_processor | get_video_info:62 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | video_processor | get_video_info:62 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:02 | INFO | video_processor | get_video_info:62 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:14:10 | INFO | video_processor | get_video_info:91 - Successfully fetched video info and stream URL.
+2025-08-12 22:14:10 | INFO | video_processor | get_video_info:91 - Successfully fetched video info and stream URL.
+2025-08-12 22:14:10 | INFO | video_processor | get_video_info:91 - Successfully fetched video info and stream URL.
+2025-08-12 22:14:10 | INFO | video_processor | get_video_info:91 - Successfully fetched video info and stream URL.
+2025-08-12 22:14:10 | INFO | video_processor | get_video_info:91 - Successfully fetched video info and stream URL.
+2025-08-12 22:14:10 | INFO | video_processor | get_video_info:91 - Successfully fetched video info and stream URL.
+2025-08-12 22:14:10 | INFO | video_processor | get_video_info:91 - Successfully fetched video info and stream URL.
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:126 - Extracting frames from stream...
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:126 - Extracting frames from stream...
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:126 - Extracting frames from stream...
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:126 - Extracting frames from stream...
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:126 - Extracting frames from stream...
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:126 - Extracting frames from stream...
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:126 - Extracting frames from stream...
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:145 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:145 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:145 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:145 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:145 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:145 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:14:10 | INFO | video_processor | extract_frames:145 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:14:12 | INFO | video_processor | extract_frames:167 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:14:12 | INFO | video_processor | extract_frames:167 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:14:12 | INFO | video_processor | extract_frames:167 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:14:12 | INFO | video_processor | extract_frames:167 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:14:12 | INFO | video_processor | extract_frames:167 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:14:12 | INFO | video_processor | extract_frames:167 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:14:12 | INFO | video_processor | extract_frames:167 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:14:13 | INFO | video_processor | extract_captions:188 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:14:13 | INFO | video_processor | extract_captions:188 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:14:13 | INFO | video_processor | extract_captions:188 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:14:13 | INFO | video_processor | extract_captions:188 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:14:13 | INFO | video_processor | extract_captions:188 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:14:13 | INFO | video_processor | extract_captions:188 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:14:13 | INFO | video_processor | extract_captions:188 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:14:13 | ERROR | video_processor | _fetch_original_captions:266 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | _fetch_original_captions:266 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | _fetch_original_captions:266 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | _fetch_original_captions:266 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | _fetch_original_captions:266 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | _fetch_original_captions:266 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | _fetch_original_captions:266 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | extract_captions:230 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | extract_captions:230 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | extract_captions:230 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | extract_captions:230 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | extract_captions:230 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | extract_captions:230 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | ERROR | video_processor | extract_captions:230 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'list_transcripts'
+2025-08-12 22:14:13 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:14:13 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:14:13 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:14:13 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:14:13 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:14:13 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:14:13 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:14:18 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:14:18 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:14:18 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:14:18 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:14:18 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:14:18 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:14:18 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:14:18 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:14:18 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:14:18 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:14:18 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:14:18 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:14:18 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:14:18 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:15:47 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:15:47 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:15:47 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:15:47 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:15:47 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:15:47 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:15:47 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:15:47 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-12 22:15:47 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-12 22:15:47 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-12 22:15:47 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-12 22:15:47 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-12 22:15:47 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-12 22:15:47 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-12 22:15:47 | INFO | root | main:264 - Video processing completed successfully
+2025-08-12 22:15:47 | INFO | root | main:264 - Video processing completed successfully
+2025-08-12 22:15:47 | INFO | root | main:264 - Video processing completed successfully
+2025-08-12 22:15:47 | INFO | root | main:264 - Video processing completed successfully
+2025-08-12 22:15:47 | INFO | root | main:264 - Video processing completed successfully
+2025-08-12 22:15:47 | INFO | root | main:264 - Video processing completed successfully
+2025-08-12 22:15:47 | INFO | root | main:264 - Video processing completed successfully
+2025-08-12 22:15:48 | INFO | root | main:309 - Page rendered in 105.959 seconds
+2025-08-12 22:15:48 | INFO | root | main:309 - Page rendered in 105.959 seconds
+2025-08-12 22:15:48 | INFO | root | main:309 - Page rendered in 105.959 seconds
+2025-08-12 22:15:48 | INFO | root | main:309 - Page rendered in 105.959 seconds
+2025-08-12 22:15:48 | INFO | root | main:309 - Page rendered in 105.959 seconds
+2025-08-12 22:15:48 | INFO | root | main:309 - Page rendered in 105.959 seconds
+2025-08-12 22:15:48 | INFO | root | main:309 - Page rendered in 105.959 seconds
