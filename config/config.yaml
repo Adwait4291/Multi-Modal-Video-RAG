@@ -12,7 +12,7 @@ similarity_top_k: 5
 image_similarity_top_k: 5
 
 # Gemini Configuration
-gemini_api_key: "<token>" # Replace with your actual API key
+gemini_api_key: "AIzaSyCw_xPnx57GDG-usYQV6TLtHrUKTXxg-8A" # Replace with your actual API key
 
 # Video Processing Configuration
 max_frames: 10000 # Maximum number of frames to extract

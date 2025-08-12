@@ -2,7 +2,7 @@ streamlit==1.32.0
 yt-dlp==2024.3.10
 moviepy==1.0.3
 youtube-transcript-api==0.6.2
-llama-index==0.10.1
+llama-index==0.13.1
 qdrant-client==1.7.3
 google-generativeai
 Pillow==10.2.0

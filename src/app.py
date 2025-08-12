@@ -7,7 +7,7 @@ import streamlit as st
 import yaml
 from inference import InferenceProcessor
 from retriever import VideoRetriever
-from utils.helpers import cleanup_data_directories
+from utils.helper import cleanup_data_directories
 from utils.logger import setup_logger
 from video_indexer import VideoIndexer
 from video_processor import VideoProcessor
@@ -90,7 +90,7 @@ def init_session_state():
 
 def main():
 
-    st = time.time()
+    st_time = time.time()
 
     logger.info("Starting Video RAG System application + Builtin Voice Mode Activated")
     st.set_page_config(page_title="Video RAG System", layout="wide", page_icon="🎥")
@@ -306,7 +306,7 @@ def main():
                 st.error(f"❌ Error processing query: {str(e)}")
 
     et = time.time()
-    print("Time taken - ", round(et - st, 3))
+    print("Time taken - ", round(et - st_time, 3))
 
 
 if __name__ == "__main__":
