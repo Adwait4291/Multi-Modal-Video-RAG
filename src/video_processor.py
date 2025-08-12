@@ -7,7 +7,6 @@ import cv2
 import yt_dlp
 from youtube_transcript_api import YouTubeTranscriptApi, NoTranscriptFound, TranscriptsDisabled
 
-
 @dataclass
 class VideoMetadata:
     title: str
@@ -19,7 +18,6 @@ class VideoMetadata:
     resolution: str
     video_id: str
 
-
 class VideoProcessor:
     def __init__(self, url: str, config: dict):
         self.url = url
@@ -27,6 +25,8 @@ class VideoProcessor:
         self.logger = logging.getLogger(__name__)
         self.video_id = self._extract_video_id(url)
         self._progress_callback = None
+        # Create an instance of the API class
+        self.transcript_api = YouTubeTranscriptApi()
 
     def _extract_video_id(self, url: str) -> str:
         try:
@@ -79,7 +79,6 @@ class VideoProcessor:
                 status = f"Fetching video info... ({d.get('_percent_str', '0%')})"
             elif d["status"] == "finished":
                 status = "Processing video info..."
-
             if status:
                 self._progress_callback(status)
 
@@ -94,7 +93,7 @@ class VideoProcessor:
             if fps == 0:
                 fps = 25
                 self.logger.warning("Could not determine FPS, defaulting to 25.")
-
+                
             frame_interval = int(fps * self.config["frame_interval"])
             frame_count = 0
             saved_frame_count = 0
@@ -103,12 +102,10 @@ class VideoProcessor:
                 ret, frame = cap.read()
                 if not ret:
                     break
-
                 if frame_count % frame_interval == 0:
                     frame_filename = output_dir / f"frame{saved_frame_count:04d}.png"
                     cv2.imwrite(str(frame_filename), frame)
                     saved_frame_count += 1
-
                 frame_count += 1
 
             cap.release()
@@ -120,41 +117,67 @@ class VideoProcessor:
 
     def extract_captions(self) -> Path:
         """
-        Extracts captions using a simplified and robust method.
+        Extracts captions using the correct instance methods `list` and `fetch`.
         """
         caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
-
+        
         try:
             self.logger.info(f"Attempting to extract captions for video: {self.video_id}")
-            # The library automatically handles finding the best available transcript.
-            # We ask for English first, but it will fall back to other available languages.
-            transcript = YouTubeTranscriptApi.get_transcript(self.video_id, languages=['en', 'en-US', 'en-GB'])
+            # Use the instance to call the `list` method
+            transcript_list = self.transcript_api.list_transcripts(self.video_id)
+            
+            transcript = transcript_list.find_transcript(['en', 'en-US', 'en-GB'])
+            self.logger.info("Found a manual English transcript.")
 
+        except NoTranscriptFound:
+            try:
+                self.logger.warning("No manual English transcript found, trying auto-generated.")
+                transcript = transcript_list.find_generated_transcript(['en', 'en-US', 'en-GB'])
+                self.logger.info("Found an auto-generated English transcript.")
+            except NoTranscriptFound:
+                self.logger.warning("No English transcript available, trying any other language.")
+                try:
+                    transcript = next(iter(transcript_list))
+                    self.logger.info(f"Found transcript in another language: {transcript.language_code}")
+                except StopIteration:
+                     self.logger.error(f"No transcripts whatsoever found for video {self.video_id}")
+                     caption_file.write_text("", encoding='utf-8')
+                     return caption_file
+
+        except TranscriptsDisabled:
+            self.logger.error(f"Transcripts are disabled for video {self.video_id}")
+            caption_file.write_text("", encoding='utf-8')
+            return caption_file
+
+        except Exception as e:
+            self.logger.error(f"An unexpected error occurred during caption list extraction: {str(e)}")
+            caption_file.write_text("", encoding='utf-8')
+            return caption_file
+
+        # Process the fetched transcript
+        try:
+            # Use the instance to call the `fetch` method
+            srt_data = transcript.fetch()
             caption_text = []
-            for entry in transcript:
+            for entry in srt_data:
                 start = entry["start"]
                 duration = entry.get("duration", 0)
                 end = start + duration
                 text = entry["text"].strip().replace('\n', ' ')
                 caption_text.append(f"<s> {start:.2f} | {end:.2f} | {text} </s>")
-
+            
             caption_file.write_text("\n".join(caption_text), encoding='utf-8')
             self.logger.info(f"Captions saved with {len(caption_text)} entries to {caption_file}")
-
-        except (NoTranscriptFound, TranscriptsDisabled) as e:
-            self.logger.warning(f"Could not find transcripts for video {self.video_id}: {e}")
-            caption_file.write_text("", encoding='utf-8') # Create empty file
-
         except Exception as e:
-            self.logger.error(f"An unexpected error occurred during caption extraction: {str(e)}")
-            caption_file.write_text("", encoding='utf-8') # Create empty file
+            self.logger.error(f"Failed to process the fetched transcript: {str(e)}")
+            caption_file.write_text("", encoding='utf-8')
 
         return caption_file
 
-
     def get_available_transcripts(self) -> List[Dict]:
         try:
-            transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
+            # Use the instance to call the `list` method
+            transcript_list_obj = self.transcript_api.list_transcripts(self.video_id)
             transcripts = [
                 {
                     'language': t.language,
@@ -162,7 +185,7 @@ class VideoProcessor:
                     'is_generated': t.is_generated,
                     'is_translatable': t.is_translatable,
                 }
-                for t in transcript_list
+                for t in transcript_list_obj
             ]
             return transcripts
         except Exception as e:
