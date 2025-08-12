@@ -115,66 +115,78 @@ class VideoProcessor:
             self.logger.error(f"Failed to extract frames from stream: {str(e)}")
             raise
 
-    def extract_captions(self) -> Path:
-        caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
-        
-        try:
-            self.logger.info(f"Attempting to list transcripts for video: {self.video_id}")
-            # Use the instance to call the list_transcripts method
+def extract_captions(self) -> Path:
+    caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
+
+    try:
+        self.logger.info(f"Attempting to fetch transcripts for video: {self.video_id}")
+
+        # Detect API method version
+        if hasattr(self.transcript_api, "list_transcripts"):
+            # Modern API flow
             transcript_list = self.transcript_api.list_transcripts(self.video_id)
-            
-            transcript = transcript_list.find_transcript(['en', 'en-US', 'en-GB'])
-            self.logger.info("Found a manual English transcript.")
-
-        except NoTranscriptFound:
             try:
-                self.logger.warning("No manual English transcript found, trying auto-generated.")
-                transcript = transcript_list.find_generated_transcript(['en', 'en-US', 'en-GB'])
-                self.logger.info("Found an auto-generated English transcript.")
+                transcript = transcript_list.find_transcript(['en', 'en-US', 'en-GB'])
             except NoTranscriptFound:
-                self.logger.warning("No English transcript available, trying any other language.")
                 try:
-                    transcript = next(iter(transcript_list))
-                    self.logger.info(f"Found transcript in another language: {transcript.language_code}")
-                except StopIteration:
-                     self.logger.error(f"No transcripts whatsoever found for video {self.video_id}")
-                     caption_file.write_text("", encoding='utf-8')
-                     return caption_file
+                    transcript = transcript_list.find_generated_transcript(['en', 'en-US', 'en-GB'])
+                except NoTranscriptFound:
+                    transcript = next(iter(transcript_list), None)
 
-        except TranscriptsDisabled:
-            self.logger.error(f"Transcripts are disabled for video {self.video_id}")
+            if transcript:
+                srt_data = transcript.fetch()
+
+        elif hasattr(self.transcript_api, "list"):
+            # Legacy API flow
+            transcript_list = self.transcript_api.list(self.video_id)
+            transcript = None
+            for t in transcript_list:
+                if t.get("language_code") in ['en', 'en-US', 'en-GB']:
+                    transcript = t
+                    break
+            if not transcript and transcript_list:
+                transcript = transcript_list[0]
+
+            if transcript:
+                srt_data = self.transcript_api.fetch(self.video_id, transcript['language_code'])
+
+        else:
+            self.logger.error("youtube-transcript-api has no transcript listing method.")
             caption_file.write_text("", encoding='utf-8')
             return caption_file
-        except Exception as e:
-            self.logger.error(f"An unexpected error occurred during caption list extraction: {str(e)}")
+
+        if not transcript:
+            self.logger.warning(f"No transcript found for video {self.video_id}")
             caption_file.write_text("", encoding='utf-8')
             return caption_file
 
-        # Process the fetched transcript
-        try:
-            # The fetch() method is called on the specific transcript object, not the main class
-            srt_data = transcript.fetch()
-            caption_text = []
-            for entry in srt_data:
-                start = entry["start"]
-                duration = entry.get("duration", 0)
-                end = start + duration
-                text = entry["text"].strip().replace('\n', ' ')
-                caption_text.append(f"<s> {start:.2f} | {end:.2f} | {text} </s>")
-            
-            caption_file.write_text("\n".join(caption_text), encoding='utf-8')
-            self.logger.info(f"Captions saved with {len(caption_text)} entries to {caption_file}")
-        except Exception as e:
-            self.logger.error(f"Failed to process the fetched transcript: {str(e)}")
-            caption_file.write_text("", encoding='utf-8')
+        # Save captions in <s> format
+        caption_text = []
+        for entry in srt_data:
+            start = entry.get("start", 0)
+            duration = entry.get("duration", 0)
+            end = start + duration
+            text = entry.get("text", "").strip().replace('\n', ' ')
+            caption_text.append(f"<s> {start:.2f} | {end:.2f} | {text} </s>")
 
-        return caption_file
+        caption_file.write_text("\n".join(caption_text), encoding='utf-8')
+        self.logger.info(f"Captions saved with {len(caption_text)} entries to {caption_file}")
 
-    def get_available_transcripts(self) -> List[Dict]:
-        try:
-            # Use the instance to call the method
+    except TranscriptsDisabled:
+        self.logger.error(f"Transcripts are disabled for video {self.video_id}")
+        caption_file.write_text("", encoding='utf-8')
+    except Exception as e:
+        self.logger.error(f"Unexpected error fetching captions: {e}")
+        caption_file.write_text("", encoding='utf-8')
+
+    return caption_file
+
+
+def get_available_transcripts(self) -> List[Dict]:
+    try:
+        if hasattr(self.transcript_api, "list_transcripts"):
             transcript_list_obj = self.transcript_api.list_transcripts(self.video_id)
-            transcripts = [
+            return [
                 {
                     'language': t.language,
                     'language_code': t.language_code,
@@ -183,7 +195,20 @@ class VideoProcessor:
                 }
                 for t in transcript_list_obj
             ]
-            return transcripts
-        except Exception as e:
-            self.logger.error(f"Failed to get available transcripts: {e}")
+        elif hasattr(self.transcript_api, "list"):
+            transcript_list_obj = self.transcript_api.list(self.video_id)
+            return [
+                {
+                    'language': t.get("language"),
+                    'language_code': t.get("language_code"),
+                    'is_generated': t.get("is_generated", False),
+                    'is_translatable': t.get("is_translatable", False),
+                }
+                for t in transcript_list_obj
+            ]
+        else:
+            self.logger.error("youtube-transcript-api has no transcript listing method.")
             return []
+    except Exception as e:
+        self.logger.error(f"Failed to get available transcripts: {e}")
+        return []
