@@ -156,82 +156,59 @@ class VideoProcessor:
             if clip is not None:
                 clip.close()
     
-def extract_captions(self) -> Path:
-    """
-    Extract captions/transcript from YouTube video.
-    Compatible with youtube-transcript-api==1.2.2
-    """
-    caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
-    
-    try:
-        self.logger.info(f"Attempting to fetch transcripts for video: {self.video_id}")
+    def extract_captions(self) -> Path:
+        """
+        Extract captions/transcript from YouTube video.
+        Compatible with youtube-transcript-api==1.2.2
+        """
+        caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
         
-        # For version 1.2.2, this is the correct way - create instance and use fetch()
-        ytt_api = YouTubeTranscriptApi()
-        fetched_transcript = ytt_api.fetch(self.video_id, languages=['en', 'en-US', 'en-GB'])
-        
-        # Convert to raw data (list of dictionaries)
-        srt_data = fetched_transcript.to_raw_data()
-        
-        self.logger.info(f"Retrieved transcript for video {self.video_id}")
+        try:
+            self.logger.info(f"Attempting to fetch transcripts for video: {self.video_id}")
+            
+            # For version 1.2.2, this is the correct way - create instance and use fetch()
+            yt_api = YouTubeTranscriptApi()
+            fetched_transcript = yt_api.fetch(self.video_id, languages=['en', 'en-US', 'en-GB'])
+            
+            # Convert to raw data (list of dictionaries)
+            srt_data = fetched_transcript.to_raw_data()
+            
+            self.logger.info(f"Retrieved transcript for video {self.video_id}")
 
-        # Process and save transcript data
-        caption_text = []
-        for i, entry in enumerate(srt_data):
-            try:
-                start = float(entry.get("start", 0))
-                duration = float(entry.get("duration", 0))
-                end = start + duration
-                text = entry.get("text", "").strip().replace('\n', ' ').replace('\r', ' ')
-                
-                if text:  # Only add non-empty text
-                    caption_text.append(f"<s> {start:.2f} | {end:.2f} | {text} </s>")
-            except Exception as entry_error:
-                self.logger.warning(f"Error processing transcript entry {i}: {entry_error}")
-                continue
+            # Process and save transcript data
+            caption_text = []
+            for i, entry in enumerate(srt_data):
+                try:
+                    start = float(entry.get("start", 0))
+                    duration = float(entry.get("duration", 0))
+                    end = start + duration
+                    text = entry.get("text", "").strip().replace('\n', ' ').replace('\r', ' ')
+                    
+                    if text:  # Only add non-empty text
+                        caption_text.append(f"<s> {start:.2f} | {end:.2f} | {text} </s>")
+                except Exception as entry_error:
+                    self.logger.warning(f"Error processing transcript entry {i}: {entry_error}")
+                    continue
 
-        if caption_text:
-            caption_file.write_text("\n".join(caption_text), encoding='utf-8')
-            self.logger.info(f"Captions saved with {len(caption_text)} entries to {caption_file}")
-        else:
-            self.logger.warning("No valid caption entries found")
+            if caption_text:
+                caption_file.write_text("\n".join(caption_text), encoding='utf-8')
+                self.logger.info(f"Captions saved with {len(caption_text)} entries to {caption_file}")
+            else:
+                self.logger.warning("No valid caption entries found")
+                caption_file.write_text("", encoding='utf-8')
+
+        except NoTranscriptFound:
+            self.logger.warning(f"No transcripts found for video {self.video_id} in specified languages.")
             caption_file.write_text("", encoding='utf-8')
+        except TranscriptsDisabled:
+            self.logger.error(f"Transcripts are disabled for video {self.video_id}")
+            caption_file.write_text("", encoding='utf-8')
+        except Exception as e:
+            self.logger.error(f"Unexpected error fetching captions: {e}")
+            caption_file.write_text("", encoding='utf-8')
+        
+        return caption_file
 
-    except NoTranscriptFound:
-        self.logger.warning(f"No transcripts found for video {self.video_id} in specified languages.")
-        caption_file.write_text("", encoding='utf-8')
-    except TranscriptsDisabled:
-        self.logger.error(f"Transcripts are disabled for video {self.video_id}")
-        caption_file.write_text("", encoding='utf-8')
-    except Exception as e:
-        self.logger.error(f"Unexpected error fetching captions: {e}")
-        caption_file.write_text("", encoding='utf-8')
-    
-    return caption_file
-
-def get_available_transcripts(self) -> List[Dict]:
-    """Get list of available transcripts for the video."""
-    try:
-        # For version 1.2.2, use instance method list()
-        ytt_api = YouTubeTranscriptApi()
-        transcript_list = ytt_api.list(self.video_id)
-        
-        available = []
-        for transcript in transcript_list:
-            available.append({
-                'language': transcript.language,
-                'language_code': transcript.language_code,
-                'is_generated': transcript.is_generated,
-                'is_translatable': transcript.is_translatable
-            })
-        
-        self.logger.info(f"Found {len(available)} available transcripts")
-        return available
-        
-    except Exception as e:
-        self.logger.error(f"Error getting available transcripts: {e}")
-        return []
-    
     def get_available_transcripts(self) -> List[Dict]:
         """Get list of available transcripts for the video."""
         try:
