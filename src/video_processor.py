@@ -156,95 +156,105 @@ class VideoProcessor:
             if clip is not None:
                 clip.close()
     
-    def extract_captions(self) -> Path:
-        """
-        Extract captions/transcript from YouTube video with multiple fallback options,
-        compatible with youtube-transcript-api.
-        """
-        caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
-        try:
-            self.logger.info(f"Attempting to fetch transcripts for video: {self.video_id}")
-            
-            # Method 1: Try to get transcript list using the static method
+def extract_captions(self) -> Path:
+    """
+    Extract captions/transcript from YouTube video.
+    Compatible with youtube-transcript-api==1.2.2
+    """
+    caption_file = Path(self.config["data_dir"]) / f"captions_{self.video_id}.txt"
+    
+    try:
+        self.logger.info(f"Attempting to fetch transcripts for video: {self.video_id}")
+        
+        # For version 1.2.2, this is the correct way - create instance and use fetch()
+        ytt_api = YouTubeTranscriptApi()
+        fetched_transcript = ytt_api.fetch(self.video_id, languages=['en', 'en-US', 'en-GB'])
+        
+        # Convert to raw data (list of dictionaries)
+        srt_data = fetched_transcript.to_raw_data()
+        
+        self.logger.info(f"Retrieved transcript for video {self.video_id}")
+
+        # Process and save transcript data
+        caption_text = []
+        for i, entry in enumerate(srt_data):
             try:
-                transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
+                start = float(entry.get("start", 0))
+                duration = float(entry.get("duration", 0))
+                end = start + duration
+                text = entry.get("text", "").strip().replace('\n', ' ').replace('\r', ' ')
                 
-                # Log available transcripts for debugging
-                available_transcripts = []
-                for transcript in transcript_list:
-                    available_transcripts.append({
-                        'language': transcript.language,
-                        'language_code': transcript.language_code,
-                        'is_generated': transcript.is_generated,
-                        'is_translatable': transcript.is_translatable
-                    })
-                
-                self.logger.info(f"Available transcripts: {available_transcripts}")
-                
-                # Try to find the best available transcript (prefer manual over auto-generated)
-                transcript = None
-                try:
-                    # First try to find manually created transcripts
-                    transcript = transcript_list.find_manually_created_transcript(['en', 'en-US', 'en-GB'])
-                    self.logger.info(f"Found manual transcript: {transcript.language_code}")
-                except NoTranscriptFound:
-                    try:
-                        # Fallback to auto-generated transcripts
-                        transcript = transcript_list.find_generated_transcript(['en', 'en-US', 'en-GB'])
-                        self.logger.info(f"Found auto-generated transcript: {transcript.language_code}")
-                    except NoTranscriptFound:
-                        # Try any available transcript
-                        transcript = transcript_list.find_transcript(['en', 'en-US', 'en-GB'])
-                        self.logger.info(f"Found transcript: {transcript.language_code}")
-                
-                # Fetch the actual transcript data
-                srt_data = transcript.fetch()
-                
-            except AttributeError:
-                # Fallback: Try direct method (older API versions)
-                self.logger.info("Using direct transcript fetch method (older API)")
-                srt_data = YouTubeTranscriptApi.get_transcript(self.video_id, languages=['en', 'en-US', 'en-GB'])
-            
-            self.logger.info(f"Retrieved transcript for video {self.video_id}")
+                if text:  # Only add non-empty text
+                    caption_text.append(f"<s> {start:.2f} | {end:.2f} | {text} </s>")
+            except Exception as entry_error:
+                self.logger.warning(f"Error processing transcript entry {i}: {entry_error}")
+                continue
 
-            # Process and save transcript data
-            caption_text = []
-            for i, entry in enumerate(srt_data):
-                try:
-                    start = float(entry.get("start", 0))
-                    duration = float(entry.get("duration", 0))
-                    end = start + duration
-                    text = entry.get("text", "").strip().replace('\n', ' ').replace('\r', ' ')
-                    
-                    if text:  # Only add non-empty text
-                        caption_text.append(f"<s> {start:.2f} | {end:.2f} | {text} </s>")
-                except Exception as entry_error:
-                    self.logger.warning(f"Error processing transcript entry {i}: {entry_error}")
-                    continue
+        if caption_text:
+            caption_file.write_text("\n".join(caption_text), encoding='utf-8')
+            self.logger.info(f"Captions saved with {len(caption_text)} entries to {caption_file}")
+        else:
+            self.logger.warning("No valid caption entries found")
+            caption_file.write_text("", encoding='utf-8')
 
-            if caption_text:
-                caption_file.write_text("\n".join(caption_text), encoding='utf-8')
-                self.logger.info(f"Captions saved with {len(caption_text)} entries to {caption_file}")
-            else:
-                self.logger.warning("No valid caption entries found")
-                caption_file.write_text("", encoding='utf-8')
+    except NoTranscriptFound:
+        self.logger.warning(f"No transcripts found for video {self.video_id} in specified languages.")
+        caption_file.write_text("", encoding='utf-8')
+    except TranscriptsDisabled:
+        self.logger.error(f"Transcripts are disabled for video {self.video_id}")
+        caption_file.write_text("", encoding='utf-8')
+    except Exception as e:
+        self.logger.error(f"Unexpected error fetching captions: {e}")
+        caption_file.write_text("", encoding='utf-8')
+    
+    return caption_file
 
-        except NoTranscriptFound:
-            self.logger.warning(f"No transcripts found for video {self.video_id} in specified languages.")
-            caption_file.write_text("", encoding='utf-8')
-        except TranscriptsDisabled:
-            self.logger.error(f"Transcripts are disabled for video {self.video_id}")
-            caption_file.write_text("", encoding='utf-8')
-        except Exception as e:
-            self.logger.error(f"Unexpected error fetching captions: {e}")
-            caption_file.write_text("", encoding='utf-8')
-        return caption_file
+def get_available_transcripts(self) -> List[Dict]:
+    """Get list of available transcripts for the video."""
+    try:
+        # For version 1.2.2, use instance method list()
+        ytt_api = YouTubeTranscriptApi()
+        transcript_list = ytt_api.list(self.video_id)
+        
+        available = []
+        for transcript in transcript_list:
+            available.append({
+                'language': transcript.language,
+                'language_code': transcript.language_code,
+                'is_generated': transcript.is_generated,
+                'is_translatable': transcript.is_translatable
+            })
+        
+        self.logger.info(f"Found {len(available)} available transcripts")
+        return available
+        
+    except Exception as e:
+        self.logger.error(f"Error getting available transcripts: {e}")
+        return []
     
     def get_available_transcripts(self) -> List[Dict]:
         """Get list of available transcripts for the video."""
         try:
-            # Use the static method to list transcripts
-            transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
+            # Try multiple approaches to get available transcripts
+            transcript_list = None
+            
+            # Approach 1: Static method
+            try:
+                transcript_list = YouTubeTranscriptApi.list_transcripts(self.video_id)
+            except AttributeError:
+                pass
+            
+            # Approach 2: Instance method
+            if transcript_list is None:
+                try:
+                    api = YouTubeTranscriptApi()
+                    transcript_list = api.list_transcripts(self.video_id)
+                except AttributeError:
+                    pass
+            
+            if transcript_list is None:
+                self.logger.warning("Could not access transcript listing functionality")
+                return []
             
             available = []
             for transcript in transcript_list:
@@ -258,10 +268,6 @@ class VideoProcessor:
             self.logger.info(f"Found {len(available)} available transcripts")
             return available
             
-        except AttributeError:
-            # Fallback for older versions
-            self.logger.warning("Your youtube-transcript-api version does not support listing transcripts. Please upgrade the library.")
-            return []
         except Exception as e:
             self.logger.error(f"Error getting available transcripts: {e}")
             return []
