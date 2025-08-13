@@ -13,3 +13,7 @@ torch==2.8.0
 tqdm==4.67.1
 loguru==0.7.3
 opencv-python
+moviepy==1.0.3
+llama-index-embeddings-huggingface
+llama-index-vector-stores-qdrant
+llama-index-embeddings-clip

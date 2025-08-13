@@ -2,3 +2,5 @@ venv
 venv/*
 logs
 db
+vrag
+vrag/*

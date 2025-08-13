@@ -7632,3 +7632,823 @@ RuntimeError: Storage folder db\mm_index is already accessed by another instance
 2025-08-12 22:15:48 | INFO | root | main:309 - Page rendered in 105.959 seconds
 2025-08-12 22:15:48 | INFO | root | main:309 - Page rendered in 105.959 seconds
 2025-08-12 22:15:48 | INFO | root | main:309 - Page rendered in 105.959 seconds
+2025-08-12 22:32:25 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:26 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:32:42 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:42 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:42 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:32:42 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:32:42 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:42 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:42 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:42 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:32:42 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:32:42 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-12 22:32:42 | INFO | root | main:152 - API key submitted successfully
+2025-08-12 22:32:42 | INFO | root | main:152 - API key submitted successfully
+2025-08-12 22:32:42 | INFO | root | main:152 - API key submitted successfully
+2025-08-12 22:32:42 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:42 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:42 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:42 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:42 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:42 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:42 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:42 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:42 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:32:42 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:32:42 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:32:42 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-12 22:32:42 | INFO | root | main:309 - Page rendered in 0.09 seconds
+2025-08-12 22:32:42 | INFO | root | main:309 - Page rendered in 0.09 seconds
+2025-08-12 22:32:42 | INFO | root | main:309 - Page rendered in 0.09 seconds
+2025-08-12 22:32:42 | INFO | root | main:309 - Page rendered in 0.09 seconds
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | main:309 - Page rendered in 0.048 seconds
+2025-08-12 22:32:51 | INFO | root | main:309 - Page rendered in 0.048 seconds
+2025-08-12 22:32:51 | INFO | root | main:309 - Page rendered in 0.048 seconds
+2025-08-12 22:32:51 | INFO | root | main:309 - Page rendered in 0.048 seconds
+2025-08-12 22:32:51 | INFO | root | main:309 - Page rendered in 0.048 seconds
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-12 22:32:51 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | video_processor | get_video_info:64 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | video_processor | get_video_info:64 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | video_processor | get_video_info:64 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | video_processor | get_video_info:64 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | video_processor | get_video_info:64 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:32:51 | INFO | video_processor | get_video_info:64 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-12 22:33:03 | INFO | video_processor | get_video_info:93 - Successfully fetched video info and stream URL.
+2025-08-12 22:33:03 | INFO | video_processor | get_video_info:93 - Successfully fetched video info and stream URL.
+2025-08-12 22:33:03 | INFO | video_processor | get_video_info:93 - Successfully fetched video info and stream URL.
+2025-08-12 22:33:03 | INFO | video_processor | get_video_info:93 - Successfully fetched video info and stream URL.
+2025-08-12 22:33:03 | INFO | video_processor | get_video_info:93 - Successfully fetched video info and stream URL.
+2025-08-12 22:33:03 | INFO | video_processor | get_video_info:93 - Successfully fetched video info and stream URL.
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:128 - Extracting frames from stream...
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:128 - Extracting frames from stream...
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:128 - Extracting frames from stream...
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:128 - Extracting frames from stream...
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:128 - Extracting frames from stream...
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:128 - Extracting frames from stream...
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:147 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:147 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:147 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:147 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:147 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:33:03 | INFO | video_processor | extract_frames:147 - Video FPS: 29.97002997002997, Total frames: 3033, Frame interval: 149
+2025-08-12 22:33:05 | INFO | video_processor | extract_frames:169 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:33:05 | INFO | video_processor | extract_frames:169 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:33:05 | INFO | video_processor | extract_frames:169 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:33:05 | INFO | video_processor | extract_frames:169 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:33:05 | INFO | video_processor | extract_frames:169 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:33:05 | INFO | video_processor | extract_frames:169 - Successfully extracted 21 frames from 3033 total frames.
+2025-08-12 22:33:05 | INFO | video_processor | extract_captions:190 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | extract_captions:190 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | extract_captions:190 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | extract_captions:190 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | extract_captions:190 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | extract_captions:190 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | _fetch_original_captions:241 - Using legacy get_transcript method for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | _fetch_original_captions:241 - Using legacy get_transcript method for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | _fetch_original_captions:241 - Using legacy get_transcript method for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | _fetch_original_captions:241 - Using legacy get_transcript method for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | _fetch_original_captions:241 - Using legacy get_transcript method for video: ut9lD8TfLag
+2025-08-12 22:33:05 | INFO | video_processor | _fetch_original_captions:241 - Using legacy get_transcript method for video: ut9lD8TfLag
+2025-08-12 22:33:05 | ERROR | video_processor | _fetch_original_captions:253 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | _fetch_original_captions:253 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | _fetch_original_captions:253 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | _fetch_original_captions:253 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | _fetch_original_captions:253 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | _fetch_original_captions:253 - Failed to fetch original captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | extract_captions:231 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | extract_captions:231 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | extract_captions:231 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | extract_captions:231 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | extract_captions:231 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | ERROR | video_processor | extract_captions:231 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-12 22:33:05 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:33:05 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:33:05 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:33:05 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:33:05 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:33:05 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-12 22:33:10 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:33:10 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:33:10 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:33:10 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:33:10 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:33:10 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-12 22:33:10 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:33:10 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:33:10 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:33:10 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:33:10 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:33:10 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-12 22:34:30 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:34:30 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:34:30 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:34:30 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:34:30 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-12 22:34:30 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-13 15:04:35 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:04:35 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:05:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:05 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:05:05 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:05:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:05 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:05:05 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:05:05 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:05:05 | INFO | root | main:152 - API key submitted successfully
+2025-08-13 15:05:05 | INFO | root | main:152 - API key submitted successfully
+2025-08-13 15:05:05 | INFO | root | main:152 - API key submitted successfully
+2025-08-13 15:05:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:05 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:05:05 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:05:05 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:05:05 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:05:05 | INFO | root | main:309 - Page rendered in 0.097 seconds
+2025-08-13 15:05:05 | INFO | root | main:309 - Page rendered in 0.097 seconds
+2025-08-13 15:05:05 | INFO | root | main:309 - Page rendered in 0.097 seconds
+2025-08-13 15:05:05 | INFO | root | main:309 - Page rendered in 0.097 seconds
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | main:309 - Page rendered in 0.034 seconds
+2025-08-13 15:05:14 | INFO | root | main:309 - Page rendered in 0.034 seconds
+2025-08-13 15:05:14 | INFO | root | main:309 - Page rendered in 0.034 seconds
+2025-08-13 15:05:14 | INFO | root | main:309 - Page rendered in 0.034 seconds
+2025-08-13 15:05:14 | INFO | root | main:309 - Page rendered in 0.034 seconds
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:05:14 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:14 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:05:22 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:05:22 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:05:22 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:05:22 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:05:22 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:05:22 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:05:22 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:05:22 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:05:22 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:05:22 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:05:22 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:05:22 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099318&ei=VVycaOqCPOfsjuMPk5Ti2As&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AHrWfDAon9kebwh2WyPp9uKaqpg4GzBMKF_QeIlzZjVv&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755077718%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLMlluBkC5i-WU6YrjHQVhVYU-q7tt7H_0qW0ewGh6lMSZzo1W_8Q2N0QmrV_advHr_qA4_UwmfS&vprv=1&svpuc=1&mime=video%2Fmp4&ns=b8vrvdk4_VV50lJvo4Ev0GEQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077339&fvip=3&lmw=1&fexp=51548755%2C51557447&c=TVHTML5&sefc=1&txp=5319224&n=KphwAnjqZ6AnQA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgIbkJCh4wioqVhTkHGDUCcCL7GJC2KuJjXG3tt0jS1GwCIFNl6VxGcszYXlVCa6bHIzP3XbDv0M0an6e-d4vAZjz9&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgP5ym0XM1jWxp3J7OzHtf6oGgdXXVAY9ERCgVMevm2dsCIHZodhZNXtOjgfbIPd4ZJ6wgHLO9kIujx7oqTmYicckf, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:05:30 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:05:30 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:05:30 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:05:30 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:05:30 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:05:30 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:05:30 | INFO | video_processor | extract_captions:167 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:05:30 | INFO | video_processor | extract_captions:167 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:05:30 | INFO | video_processor | extract_captions:167 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:05:30 | INFO | video_processor | extract_captions:167 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:05:30 | INFO | video_processor | extract_captions:167 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:05:30 | INFO | video_processor | extract_captions:167 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:05:30 | ERROR | video_processor | extract_captions:203 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-13 15:05:30 | ERROR | video_processor | extract_captions:203 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-13 15:05:30 | ERROR | video_processor | extract_captions:203 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-13 15:05:30 | ERROR | video_processor | extract_captions:203 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-13 15:05:30 | ERROR | video_processor | extract_captions:203 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-13 15:05:30 | ERROR | video_processor | extract_captions:203 - Unexpected error fetching captions: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-08-13 15:05:30 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:05:30 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:05:30 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:05:30 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:05:30 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:05:30 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:05:35 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:05:35 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:05:35 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:05:35 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:05:35 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:05:35 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:05:35 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:05:35 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:05:35 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:05:35 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:05:35 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:05:35 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:05:39 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | video_indexer | create_multimodal_index:78 - Failed to create multimodal index: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | root | main:269 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 248, in main
+    index = indexer.create_multimodal_index(frames_dir, captions_path, video_processor.video_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | root | main:269 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 248, in main
+    index = indexer.create_multimodal_index(frames_dir, captions_path, video_processor.video_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | root | main:269 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 248, in main
+    index = indexer.create_multimodal_index(frames_dir, captions_path, video_processor.video_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | root | main:269 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 248, in main
+    index = indexer.create_multimodal_index(frames_dir, captions_path, video_processor.video_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | root | main:269 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 248, in main
+    index = indexer.create_multimodal_index(frames_dir, captions_path, video_processor.video_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | ERROR | root | main:269 - Error processing video: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 81, in resolve_embed_model
+    from llama_index.embeddings.clip import ClipEmbedding  # pants: no-infer-dep
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'llama_index.embeddings.clip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 248, in main
+    index = indexer.create_multimodal_index(frames_dir, captions_path, video_processor.video_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\video_indexer.py", line 69, in create_multimodal_index
+    index = MultiModalVectorStoreIndex.from_documents(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\base.py", line 122, in from_documents
+    return cls(
+           ^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\indices\multi_modal\base.py", line 81, in __init__
+    image_embed_model = resolve_embed_model(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\core\embeddings\utils.py", line 88, in resolve_embed_model
+    raise ImportError(
+ImportError: `llama-index-embeddings-clip` package not found, please run `pip install llama-index-embeddings-clip` and `pip install git+https://github.com/openai/CLIP.git`
+2025-08-13 15:05:39 | INFO | root | main:309 - Page rendered in 24.699 seconds
+2025-08-13 15:05:39 | INFO | root | main:309 - Page rendered in 24.699 seconds
+2025-08-13 15:05:39 | INFO | root | main:309 - Page rendered in 24.699 seconds
+2025-08-13 15:05:39 | INFO | root | main:309 - Page rendered in 24.699 seconds
+2025-08-13 15:05:39 | INFO | root | main:309 - Page rendered in 24.699 seconds
+2025-08-13 15:05:39 | INFO | root | main:309 - Page rendered in 24.699 seconds
+2025-08-13 15:12:43 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:12:43 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:12:59 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:12:59 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:12:59 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:12:59 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:12:59 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:12:59 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:12:59 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:12:59 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:12:59 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:12:59 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:12:59 | INFO | root | main:152 - API key submitted successfully
+2025-08-13 15:12:59 | INFO | root | main:152 - API key submitted successfully
+2025-08-13 15:12:59 | INFO | root | main:152 - API key submitted successfully
+2025-08-13 15:12:59 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:12:59 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:12:59 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:12:59 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:12:59 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:12:59 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:12:59 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:12:59 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:12:59 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:12:59 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:12:59 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:12:59 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:12:59 | INFO | root | main:309 - Page rendered in 0.035 seconds
+2025-08-13 15:12:59 | INFO | root | main:309 - Page rendered in 0.035 seconds
+2025-08-13 15:12:59 | INFO | root | main:309 - Page rendered in 0.035 seconds
+2025-08-13 15:12:59 | INFO | root | main:309 - Page rendered in 0.035 seconds
+2025-08-13 15:13:07 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:07 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:07 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:07 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:07 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:07 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:07 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:07 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:07 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:07 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:07 | INFO | root | main:309 - Page rendered in 0.022 seconds
+2025-08-13 15:13:07 | INFO | root | main:309 - Page rendered in 0.022 seconds
+2025-08-13 15:13:07 | INFO | root | main:309 - Page rendered in 0.022 seconds
+2025-08-13 15:13:07 | INFO | root | main:309 - Page rendered in 0.022 seconds
+2025-08-13 15:13:07 | INFO | root | main:309 - Page rendered in 0.022 seconds
+2025-08-13 15:13:08 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:08 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:08 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:08 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:08 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:08 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:13:08 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:08 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:08 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:08 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:08 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:08 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:13:08 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:08 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:13:17 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:13:17 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:13:17 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:13:17 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:13:17 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:13:17 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:13:17 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:13:17 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:13:17 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:13:17 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:13:17 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:13:17 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755099791&ei=L16caITRLoucssUP5tuXoQQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-AMFS4juBTmc1-Ogf_Dk4RZFa-j9G3CyNgsi17hogBeKH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078191%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pl=51&rms=au%2Cau&initcwndbps=1418750&bui=AY1jyLOfxEdE4Iv_7goxghTjtoO1KP-bs4JOQe7Ix_McRXOCpvTet5uDBhVm_dTV4sYXB-EPv5EyIu9i&vprv=1&svpuc=1&mime=video%2Fmp4&ns=MSomhKmU-ttYVoFu0N4Rm_IQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755077823&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=gclpMDI0Pe2ZkQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgQFsCFVBH9lyUm6-3N8gzuHHTPQuDwPmiLHmAmypKZiMCIQD1ysuAzJ2oJ6ndnrwEC4UaPJfcUGAjsZYQ8oIBYUxCug%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgFMPMTJA0Je078pwPwkq6kO-aBpDOKnqN9ITSXxBXcr8CIQDcVNFAGY0rnxgEM4Yf4hFoAuzuKVZ7yj7l4E8o8dSgWw%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:13:24 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:13:24 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:13:24 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:13:24 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:13:24 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:13:24 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:13:24 | ERROR | root | main:269 - Error processing video: 'VideoProcessor' object has no attribute 'extract_captions'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 243, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VideoProcessor' object has no attribute 'extract_captions'
+2025-08-13 15:13:24 | ERROR | root | main:269 - Error processing video: 'VideoProcessor' object has no attribute 'extract_captions'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 243, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VideoProcessor' object has no attribute 'extract_captions'
+2025-08-13 15:13:24 | ERROR | root | main:269 - Error processing video: 'VideoProcessor' object has no attribute 'extract_captions'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 243, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VideoProcessor' object has no attribute 'extract_captions'
+2025-08-13 15:13:24 | ERROR | root | main:269 - Error processing video: 'VideoProcessor' object has no attribute 'extract_captions'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 243, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VideoProcessor' object has no attribute 'extract_captions'
+2025-08-13 15:13:24 | ERROR | root | main:269 - Error processing video: 'VideoProcessor' object has no attribute 'extract_captions'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 243, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VideoProcessor' object has no attribute 'extract_captions'
+2025-08-13 15:13:24 | ERROR | root | main:269 - Error processing video: 'VideoProcessor' object has no attribute 'extract_captions'
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Multi-Modal-Video-RAG\src\app.py", line 243, in main
+    captions_path = video_processor.extract_captions()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VideoProcessor' object has no attribute 'extract_captions'
+2025-08-13 15:13:24 | INFO | root | main:309 - Page rendered in 16.093 seconds
+2025-08-13 15:13:24 | INFO | root | main:309 - Page rendered in 16.093 seconds
+2025-08-13 15:13:24 | INFO | root | main:309 - Page rendered in 16.093 seconds
+2025-08-13 15:13:24 | INFO | root | main:309 - Page rendered in 16.093 seconds
+2025-08-13 15:13:24 | INFO | root | main:309 - Page rendered in 16.093 seconds
+2025-08-13 15:13:24 | INFO | root | main:309 - Page rendered in 16.093 seconds
+2025-08-13 15:16:32 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:16:32 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:16:56 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:16:56 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:16:56 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:16:56 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:16:57 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:16:57 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:16:57 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:16:57 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:16:57 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:16:57 | INFO | root | main:143 - No Gemini API key found - displaying key input form
+2025-08-13 15:16:57 | INFO | root | main:152 - API key submitted successfully
+2025-08-13 15:16:57 | INFO | root | main:152 - API key submitted successfully
+2025-08-13 15:16:57 | INFO | root | main:152 - API key submitted successfully
+2025-08-13 15:16:57 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:16:57 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:16:57 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:16:57 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:16:57 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:16:57 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:16:57 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:16:57 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:16:57 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:16:57 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:16:57 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:16:57 | INFO | root | main:165 - Initializing InferenceProcessor
+2025-08-13 15:16:57 | INFO | root | main:309 - Page rendered in 0.024 seconds
+2025-08-13 15:16:57 | INFO | root | main:309 - Page rendered in 0.024 seconds
+2025-08-13 15:16:57 | INFO | root | main:309 - Page rendered in 0.024 seconds
+2025-08-13 15:16:57 | INFO | root | main:309 - Page rendered in 0.024 seconds
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | main:309 - Page rendered in 0.018 seconds
+2025-08-13 15:17:05 | INFO | root | main:309 - Page rendered in 0.018 seconds
+2025-08-13 15:17:05 | INFO | root | main:309 - Page rendered in 0.018 seconds
+2025-08-13 15:17:05 | INFO | root | main:309 - Page rendered in 0.018 seconds
+2025-08-13 15:17:05 | INFO | root | main:309 - Page rendered in 0.018 seconds
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | main:135 - Starting Video RAG System application
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | load_config:96 - Loading configuration from config/config.yaml
+2025-08-13 15:17:05 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | root | main:215 - Starting video processing for URL: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:05 | INFO | video_processor | get_video_info:65 - Fetching video info for: https://www.youtube.com/watch?v=ut9lD8TfLag
+2025-08-13 15:17:16 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:17:16 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:17:16 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:17:16 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:17:16 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:17:16 | INFO | video_processor | get_video_info:94 - Successfully fetched video info and stream URL.
+2025-08-13 15:17:16 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:17:16 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:17:16 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:17:16 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:17:16 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:17:16 | INFO | video_processor | extract_frames:129 - Extracting frames from video file...
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3033/3035, at time 101.20/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file https://rr1---sn-ci5gup-8one.googlevideo.com/videoplayback?expire=1755100030&ei=Hl-caNajHOzKssUP6sb3mAQ&ip=2401%3A4900%3A8848%3A3bcb%3Ac54c%3A3ee0%3A565f%3A9be5&id=o-ANgEeN5kb7KnoziKjCQwriyUIVMeN-w25-VeMTR-G8Nj&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1755078430%2C&mh=Bc&mm=31%2C29&mn=sn-ci5gup-8one%2Csn-ci5gup-qxaez&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=51&rms=au%2Cau&initcwndbps=1436250&bui=AY1jyLP4sGrAnSizXvWQ9ZBnB0EHMLdpmNomsqyycurgA7_oN6JQNp154VdiMDm7iyQ7luoBqpR3GfkO&vprv=1&svpuc=1&mime=video%2Fmp4&ns=nsRikLoLx2csbQIYIQqzgkcQ&rqh=1&gir=yes&clen=7229210&ratebypass=yes&dur=101.262&lmt=1755028338932736&mt=1755078071&fvip=3&lmw=1&fexp=51548755%2C51557446&c=TVHTML5&sefc=1&txp=5319224&n=5C_WhnoEMSKf-g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhANhiICMcXm0CF2pMqheKl-Mytaa4Zf5wd7JmMnsdxQbWAiBr_VTwFGTKu0Ro0XpYScmZatY_dXWcOvwPMr5mqh0QOw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhANku7v07JdP9W5I4UNjbj3URv6ISi3C045y-abr27gy0AiAeuxuiCDAmNECUdTt2Hv770FP-5dl0Sy2qP5gxtsmTzg%3D%3D, 691200 bytes wanted but 0 bytes read,at frame 3034/3035, at time 101.23/101.26 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-08-13 15:17:22 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:17:22 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:17:22 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:17:22 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:17:22 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:17:22 | INFO | video_processor | extract_frames:149 - Successfully extracted 21 frames.
+2025-08-13 15:17:22 | INFO | video_processor | extract_captions:166 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:17:22 | INFO | video_processor | extract_captions:166 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:17:22 | INFO | video_processor | extract_captions:166 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:17:22 | INFO | video_processor | extract_captions:166 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:17:22 | INFO | video_processor | extract_captions:166 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:17:22 | INFO | video_processor | extract_captions:166 - Attempting to fetch transcripts for video: ut9lD8TfLag
+2025-08-13 15:17:22 | ERROR | video_processor | extract_captions:213 - Unexpected error fetching captions: 'YouTubeTranscriptApi' object has no attribute 'list_transcripts'
+2025-08-13 15:17:22 | ERROR | video_processor | extract_captions:213 - Unexpected error fetching captions: 'YouTubeTranscriptApi' object has no attribute 'list_transcripts'
+2025-08-13 15:17:22 | ERROR | video_processor | extract_captions:213 - Unexpected error fetching captions: 'YouTubeTranscriptApi' object has no attribute 'list_transcripts'
+2025-08-13 15:17:22 | ERROR | video_processor | extract_captions:213 - Unexpected error fetching captions: 'YouTubeTranscriptApi' object has no attribute 'list_transcripts'
+2025-08-13 15:17:22 | ERROR | video_processor | extract_captions:213 - Unexpected error fetching captions: 'YouTubeTranscriptApi' object has no attribute 'list_transcripts'
+2025-08-13 15:17:22 | ERROR | video_processor | extract_captions:213 - Unexpected error fetching captions: 'YouTubeTranscriptApi' object has no attribute 'list_transcripts'
+2025-08-13 15:17:22 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:17:22 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:17:22 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:17:22 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:17:22 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:17:22 | INFO | sentence_transformers.SentenceTransformer | __init__:227 - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-08-13 15:17:27 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:17:27 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:17:27 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:17:27 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:17:27 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:17:27 | INFO | sentence_transformers.SentenceTransformer | __init__:378 - 1 prompt is loaded, with the key: query
+2025-08-13 15:17:27 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:17:27 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:17:27 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:17:27 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:17:27 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:17:27 | INFO | video_indexer | create_multimodal_index:46 - Creating new multimodal index...
+2025-08-13 15:17:42 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\vector_stores\qdrant\base.py:710: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+  self._client.create_payload_index(
+
+2025-08-13 15:17:42 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\vector_stores\qdrant\base.py:710: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+  self._client.create_payload_index(
+
+2025-08-13 15:17:42 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\vector_stores\qdrant\base.py:710: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+  self._client.create_payload_index(
+
+2025-08-13 15:17:42 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\vector_stores\qdrant\base.py:710: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+  self._client.create_payload_index(
+
+2025-08-13 15:17:42 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\vector_stores\qdrant\base.py:710: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+  self._client.create_payload_index(
+
+2025-08-13 15:17:42 | WARNING | py.warnings | _showwarnmsg:112 - C:\Users\hp\Desktop\Multi-Modal-Video-RAG\vrag\Lib\site-packages\llama_index\vector_stores\qdrant\base.py:710: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+  self._client.create_payload_index(
+
+2025-08-13 15:17:42 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-13 15:17:42 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-13 15:17:42 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-13 15:17:42 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-13 15:17:42 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-13 15:17:42 | INFO | video_indexer | create_multimodal_index:74 - Successfully created multimodal index
+2025-08-13 15:17:42 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-13 15:17:42 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-13 15:17:42 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-13 15:17:42 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-13 15:17:42 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-13 15:17:42 | INFO | retriever | __init__:23 - Retriever initialized with text_top_k=5 and image_top_k=5
+2025-08-13 15:17:42 | INFO | root | main:264 - Video processing completed successfully
+2025-08-13 15:17:42 | INFO | root | main:264 - Video processing completed successfully
+2025-08-13 15:17:42 | INFO | root | main:264 - Video processing completed successfully
+2025-08-13 15:17:42 | INFO | root | main:264 - Video processing completed successfully
+2025-08-13 15:17:42 | INFO | root | main:264 - Video processing completed successfully
+2025-08-13 15:17:42 | INFO | root | main:264 - Video processing completed successfully
+2025-08-13 15:17:42 | INFO | root | main:309 - Page rendered in 37.331 seconds
+2025-08-13 15:17:42 | INFO | root | main:309 - Page rendered in 37.331 seconds
+2025-08-13 15:17:42 | INFO | root | main:309 - Page rendered in 37.331 seconds
+2025-08-13 15:17:42 | INFO | root | main:309 - Page rendered in 37.331 seconds
+2025-08-13 15:17:42 | INFO | root | main:309 - Page rendered in 37.331 seconds
+2025-08-13 15:17:42 | INFO | root | main:309 - Page rendered in 37.331 seconds
